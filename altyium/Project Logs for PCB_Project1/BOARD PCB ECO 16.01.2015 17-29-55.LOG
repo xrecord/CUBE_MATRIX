@@ -1,0 +1,17 @@
+Removed Pin From Net: NetName=G1 Pin=R25-2
+Removed Pin From Net: NetName=G2 Pin=R26-2
+Removed Pin From Net: NetName=G3 Pin=R27-2
+Removed Pin From Net: NetName=G4 Pin=R28-2
+Removed Pin From Net: NetName=G5 Pin=R29-2
+Removed Pin From Net: NetName=G6 Pin=R30-2
+Removed Pin From Net: NetName=G7 Pin=R31-2
+Removed Pin From Net: NetName=G8 Pin=R32-2
+Removed Member From Class: ClassName=schematic Member=R25
+Removed Member From Class: ClassName=schematic Member=R26
+Removed Member From Class: ClassName=schematic Member=R27
+Removed Member From Class: ClassName=schematic Member=R28
+Removed Member From Class: ClassName=schematic Member=R29
+Removed Member From Class: ClassName=schematic Member=R30
+Removed Member From Class: ClassName=schematic Member=R31
+Removed Member From Class: ClassName=schematic Member=R32
+Added Room: Name=schematic

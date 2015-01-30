@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>1670638033</fileChecksum>
+  <configuration>
+    <name>matrix3x2 Configuration</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\..\Drivers\STM32F3xx_HAL_Driver\Inc\stm32f3xx_hal_pwr.h</file>
+      <file>$PROJ_DIR$\..\..\Drivers\STM32F3xx_HAL_Driver\Inc\stm32f3xx_hal_pwr_ex.h</file>
+      <file>$PROJ_DIR$\..\..\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_pwr.c</file>
+      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+      <file>$PROJ_DIR$\..\..\Drivers\STM32F3xx_HAL_Driver\Inc\stm32f3xx_hal_rcc.h</file>
+      <file>$PROJ_DIR$\..\..\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_gpio.c</file>
+      <file>$PROJ_DIR$\..\..\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_tim_ex.c</file>
+      <file>$PROJ_DIR$\matrix3x2 Configuration\Obj\stm32f3xx_hal_tim.pbi</file>
+      <file>$PROJ_DIR$\matrix3x2 Configuration\Obj\stm32f3xx_hal_spi.o</file>
+      <file>$PROJ_DIR$\..\..\Drivers\STM32F3xx_HAL_Driver\Inc\stm32f3xx_hal_flash_ex.h</file>
+      <file>$PROJ_DIR$\..\..\Drivers\CMSIS\Include\core_cm4_simd.h</file>
+      <file>$PROJ_DIR$\matrix3x2 Configuration\Obj\stm32f3xx_hal_pwr.pbi</file>
+      <file>$PROJ_DIR$\..\..\Drivers\STM32F3xx_HAL_Driver\Inc\stm32f3xx_hal_tim_ex.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Full.h</file>
+      <file>$PROJ_DIR$\matrix3x2 Configuration\Obj\stm32f3xx_hal.o</file>
+      <file>$PROJ_DIR$\matrix3x2 Configuration\Obj\stm32f3xx_hal_gpio.o</file>
+      <file>$PROJ_DIR$\..\..\Drivers\STM32F3xx_HAL_Driver\Inc\stm32f3xx_hal_flash.h</file>
+      <file>$PROJ_DIR$\..\..\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_flash.c</file>
+      <file>$PROJ_DIR$\matrix3x2 Configuration\Obj\main.o</file>
+      <file>$PROJ_DIR$\..\..\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_tim.c</file>
+      <file>$PROJ_DIR$\matrix3x2 Configuration\Obj\stm32f3xx_hal.pbi</file>
+      <file>$PROJ_DIR$\matrix3x2 Configuration\Obj\stm32f3xx_hal_flash_ex.o</file>
+      <file>$PROJ_DIR$\..\..\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_rcc_ex.c</file>
+      <file>$PROJ_DIR$\..\..\Drivers\CMSIS\Device\ST\STM32F3xx\Include\system_stm32f3xx.h</file>
+      <file>$PROJ_DIR$\..\..\Drivers\STM32F3xx_HAL_Driver\Inc\stm32f3xx_hal.h</file>
+      <file>$PROJ_DIR$\matrix3x2 Configuration\List\matrix3x2 Configuration.map</file>
+      <file>$PROJ_DIR$\..\..\Drivers\STM32F3xx_HAL_Driver\Inc\stm32f3xx_hal_gpio.h</file>
+      <file>$PROJ_DIR$\..\..\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal.c</file>
+      <file>$TOOLKIT_DIR$\config\linker\ST\stm32f303xC.icf</file>
+      <file>$PROJ_DIR$\..\..\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_dma.c</file>
+      <file>$PROJ_DIR$\matrix3x2 Configuration\Obj\stm32f3xx_hal_tim.o</file>
+      <file>$PROJ_DIR$\matrix3x2 Configuration\Obj\stm32f3xx_hal_dma.o</file>
+      <file>$PROJ_DIR$\..\..\Src\stm32f3xx_hal_msp.c</file>
+      <file>$PROJ_DIR$\matrix3x2 Configuration\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\..\..\Inc\stm32f3xx_hal_conf.h</file>
+      <file>$PROJ_DIR$\..\..\Drivers\CMSIS\Device\ST\STM32F3xx\Include\stm32f3xx.h</file>
+      <file>$PROJ_DIR$\..\..\Drivers\CMSIS\Device\ST\STM32F3xx\Source\Templates\iar\startup_stm32f303xc.s</file>
+      <file>$PROJ_DIR$\..\..\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_pwr_ex.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\matrix3x2 Configuration\Obj\matrix3x2.pbd</file>
+      <file>$PROJ_DIR$\matrix3x2 Configuration\Obj\stm32f3xx_hal_flash_ex.pbi</file>
+      <file>$PROJ_DIR$\matrix3x2 Configuration\Obj\system_stm32f3xx.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$PROJ_DIR$\..\..\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_flash_ex.c</file>
+      <file>$PROJ_DIR$\..\..\Drivers\CMSIS\Device\ST\STM32F3xx\Source\Templates\system_stm32f3xx.c</file>
+      <file>$PROJ_DIR$\matrix3x2 Configuration\Obj\stm32f3xx_hal_rcc.o</file>
+      <file>$PROJ_DIR$\matrix3x2 Configuration\Obj\stm32f3xx_hal_msp.o</file>
+      <file>$PROJ_DIR$\..\..\Inc\stm32f3xx_it.h</file>
+      <file>$PROJ_DIR$\..\..\Drivers\STM32F3xx_HAL_Driver\Inc\stm32f3xx_hal_tim.h</file>
+      <file>$PROJ_DIR$\..\..\Drivers\CMSIS\Include\core_cm4.h</file>
+      <file>$PROJ_DIR$\..\..\Drivers\CMSIS\Include\core_cmFunc.h</file>
+      <file>$PROJ_DIR$\matrix3x2 Configuration\Obj\stm32f3xx_hal_rcc.pbi</file>
+      <file>$PROJ_DIR$\..\..\Src\stm32f3xx_it.c</file>
+      <file>$PROJ_DIR$\matrix3x2 Configuration\Obj\startup_stm32f303xc.o</file>
+      <file>$PROJ_DIR$\matrix3x2 Configuration\Obj\stm32f3xx_hal_flash.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$PROJ_DIR$\..\..\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_cortex.c</file>
+      <file>$PROJ_DIR$\matrix3x2 Configuration\Obj\stm32f3xx_hal_pwr_ex.pbi</file>
+      <file>$PROJ_DIR$\matrix3x2 Configuration\Obj\stm32f3xx_hal_cortex.pbi</file>
+      <file>$PROJ_DIR$\..\..\Drivers\STM32F3xx_HAL_Driver\Inc\stm32f3xx_hal_rcc_ex.h</file>
+      <file>$PROJ_DIR$\matrix3x2 Configuration\Obj\stm32f3xx_hal_pwr.o</file>
+      <file>$PROJ_DIR$\..\..\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_spi.c</file>
+      <file>$PROJ_DIR$\matrix3x2 Configuration\Obj\stm32f3xx_hal_pwr_ex.o</file>
+      <file>$PROJ_DIR$\..\..\Drivers\STM32F3xx_HAL_Driver\Inc\stm32f3xx_hal_dma.h</file>
+      <file>$PROJ_DIR$\matrix3x2 Configuration\Obj\stm32f3xx_hal_tim_ex.o</file>
+      <file>$PROJ_DIR$\..\..\Drivers\CMSIS\Include\core_cmInstr.h</file>
+      <file>$PROJ_DIR$\..\..\Drivers\STM32F3xx_HAL_Driver\Inc\stm32f3xx_hal_def.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\matrix3x2 Configuration\Exe\matrix3x2 Configuration.out</file>
+      <file>$PROJ_DIR$\matrix3x2 Configuration\Obj\stm32f3xx_hal_tim_ex.pbi</file>
+      <file>$PROJ_DIR$\..\..\Drivers\CMSIS\Device\ST\STM32F3xx\Include\stm32f303xc.h</file>
+      <file>$PROJ_DIR$\matrix3x2 Configuration\Obj\stm32f3xx_hal_spi.pbi</file>
+      <file>$PROJ_DIR$\matrix3x2 Configuration\Obj\stm32f3xx_hal_gpio.pbi</file>
+      <file>$PROJ_DIR$\matrix3x2 Configuration\Obj\stm32f3xx_hal_dma.pbi</file>
+      <file>$PROJ_DIR$\..\..\Drivers\STM32F3xx_HAL_Driver\Inc\stm32f3xx_hal_gpio_ex.h</file>
+      <file>$PROJ_DIR$\matrix3x2 Configuration\Obj\stm32f3xx_it.pbi</file>
+      <file>$PROJ_DIR$\..\..\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_rcc.c</file>
+      <file>$PROJ_DIR$\matrix3x2 Configuration\Obj\system_stm32f3xx.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\matrix3x2 Configuration\Obj\stm32f3xx_hal_rcc_ex.pbi</file>
+      <file>$PROJ_DIR$\..\..\Drivers\STM32F3xx_HAL_Driver\Inc\stm32f3xx_hal_spi.h</file>
+      <file>$PROJ_DIR$\..\..\Src\main.c</file>
+      <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\matrix3x2 Configuration\Obj\stm32f3xx_hal_msp.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\matrix3x2 Configuration\Obj\stm32f3xx_hal_flash.pbi</file>
+      <file>$PROJ_DIR$\matrix3x2 Configuration\Obj\stm32f3xx_hal_rcc_ex.o</file>
+      <file>$PROJ_DIR$\matrix3x2 Configuration\Obj\stm32f3xx_it.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$PROJ_DIR$\matrix3x2 Configuration\Obj\stm32f3xx_hal_cortex.o</file>
+      <file>$PROJ_DIR$\..\..\Drivers\STM32F3xx_HAL_Driver\Inc\stm32f3xx_hal_cortex.h</file>
+      <file>$PROJ_DIR$\..\..\Drivers\STM32F3xx_HAL_Driver\Inc\stm32f3xx_hal_dma_ex.h</file>
+      <file>$TOOLKIT_DIR$\lib\m7M_tlv.a</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 69 26</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_pwr.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12</file>
+        </tool>
+       œ«ZF¹ÁQ²2ØÇ0q¿þâêŒWT·ÓÜIÇÞQâˆ|`Œˆ¹.—JP âÊzä®	ƒ	jó1bú ™Œs[jÃÇ"v€RäçÃhèÅ-¢cBàë]´ÇtƒU8ôs®ÏTJ¯9ï­Ã%ì!š.4Zü¡K2w@Ré×¹ä”Ð$ð6Â•˜‘”¹aË²@ÇÍ²x N¹¸=æA@Æç8	xõz ÀYi&ŸÆµi¯eÿÿþÉ,uþP÷O·Ôo[ÍbÊû9sÊIúò³W»ÏÅRÔþ£ú‹½™@N2¤^eè{Þ;ø¶Â’Þ£{ñkÞŽÇ÷#-ÌâAŸýq‰Ø´íMãT}#kM¯ª[Énjf2Ž¼B+LŽZrK¦2–À?½3\çhŒŠJ‰kùÇÉ³eâáðLmwt˜•–ËP5¶rÔÎH|h+q×(Húõ¸Á=×OZme$r3dM¨ØSLßsL˜7×‹vQ}Úë¯a‰’³K®'ÑŠAC:µ7rbXžC$PIfª­¸3ç›Òj,Õ¼£­DÊSú%ÿÎQuÎ<ñÆ†ƒ©÷ÎÄåË¤Ÿ•xDÑÇÉ¾ýÁªBÿë>Ñæ/’AXÐ•Ó¥¸üD\ŽÀ¾yå¦Ü"®>Ì2—l¯è?DX½æ*  rÈ`p1*·Õ8|*è¯—¿>ÍýTìi‰[ý×½!HxýŠæir¼Ãñ0qjcœ_ñ˜
+ úd¯Gõ˜¶fÀ5×Jß|dîŸ2œ#Ä¶5T‡ñ¡œV—¨D£’Êm™z½ón¿}~‡øQÆÑàäHÃ+Ë›¿÷öZ Îáìç³÷Yû?²Ás˜KÐÍ¥sŸ”a·uGûÑâ·¢¿çqTPˆg{Æ†3³Vs¸û¼—'0<‡F8QƒTÎÝTÏÎSÐØPðt:Lud°;•ëŠƒzqÙO¦‡Në'èßMxÝŒAýA~ghhLÛ#0¾ŸŠ5hâ€`¥óy¸Íƒ33½Ð*[x¦ÍÉ¸
+ÈkÞ<üßÈ-Æ– 0’ãˆ2ñEN‡!$Ú]eúôß×Ñáž8³Ê…ú¦8 'y³ÂÄÑEéžç¥Xí~Â½ÚfgbYäºLáóB*¸òáQêÆìÛŠ¸Z*{N‘¯ÍÒxfþÈ0³Îûã“Øò~~:^5{lúIPl_²Ü$ÑâVxÎìiƒuÛ8µvÜƒõ“Ié¼kø–÷t¸ BOâü	¼ÂÌë‘Rë¤<\àê>03&_dªå>ù39¢DÁ’¬:\ß‡õ…Ý){K~°fš¾ì½ù\¾Að¼¾±Ä®|û£êˆ«©âúÅa±ËÃßóú­ùÀ]½íj»N3Fxu2Œ8ôSîÚÞ¢Âíõx–.QD&?‘Å/Êít_mËÞ*GùKÌ•i¯5V!îh“íølá†ŽeÎ=!å{G¹º³ªî¥Çe_=±þT3¢š.5~°°4ŸqPµãŒæ<#‹çcÛLõRƒ'è’^‹,(ã¯îŽpØQø;|]""@jŠŒñ›~s)tÂ…¯Yä°)ÁÌ¨}ˆ½ªÍ‘ûê,•qœ
+œË9.?ŒöÀ™—ß‚EÔÂÈ Þñ;Ê‹¸xusÞÌº7˜×œíœþ<Ïb½Bh5¹ê{éÉ¿%DLas@™šô˜?5Ám¨²UHë:i×Uóu³½qìßÌ wjßnïæçwm~óÊÍ‡9®Ÿÿ3¦Éò!Ü@+zï¼ é}½Øvƒ-ù@â5ìy X…H’8À¸÷úÀ@º*‚Y:"óç­ôyY“cTÅÉÉ4î™žÇŠ¶4‹þW¿
+Nù§ô–¹”…ÓëßÍiÚã¦ô¥ê»q_&
+YŽ†•RŸár¡šH¹ €1P¡¿À»adœu72îvõM…;™Î3îÃòšbÅÈ•Å•ŠÜ)4Ôc†¯¾äZJ,JÉöEÒêÑÞšïföµrö€G›´y­Øl&‹– ö¦Š†!J£ñF ŒÂøJ„SêV(·A*GíºQf±ÝÛÞ´m nVsæ¨á—wåhúþ÷Íò,¢W¹º’þsþââx@Àêxº34ö€˜Nsnß­	ù­~‚uTÊx#Ô:ªtÝtqô{¦KÞXÞçøåç‚»g‘Ò%Uçô¾²¡‘Ý¢½v&u>ë†31"F¬†	ºs÷ÓH,¸„ôzˆ®°<ÊÑû_¬pP\¬Ä"Þ¿q8SMºó5@çç%FøéjsŒ½ãï9÷äŠ…nJnLˆád¬‘™«Š W>eŽ•¯6lù‘Š’'ƒþúÊËÅÙT6½=9Ì"„vÍÐÉz!ÌÜBÂoLz„¬Exk¢då/©ñ°J°MG_±6ïÍß~ï6aNmoÜ>¿©.„8'7a_Ü eÛ™¸À*|âáÞbßgš=LH±A°ãÍ4ÛÝ‚ü€£Á¶£Ïw^– ®á¡ÀK·OÇÚÐ¸ÔXÛ¦À\&/fÏšõ?ÐyÈàæ1Pk~T×­Mv}s…5ÿí$W¼Þ-P…Æ~w8H­yø>•ºNÅoŒ`a®+Ð½î´-,išœ!ú[ÀbÞŽÜL,/ñÙqæ€%žlÓœä|JÇ?„e§•gÏeyÓ«ha#G‰¯ØÄ-Ž7R/
+CBEOÊf
+q¥aÖÛ|Y†ž‡ñý±(´6@ªù#‘„Hg˜ˆqkv¥x(üaàþÄEPÂ¿^6LWÖFC5I/38ïŽr„¼ü3›¦!Qø+—ßþnÿ5iÜK&—G.æ
+Í(fm6Ä}ýŠvô«(ÙEþ0R>°æQ^òÃùìú5q­^Xz×¥½·´ý·P‰7g«4G¢^ßxôn‡m¡ 3d!l±î'ƒÑít&a]o×ÄˆX‹çmã/”cGÊÔÐ-~0óQÛÞ	nÁUû}ã8sx
+¡d.vÓÚßå‰ŽcÚ»,>2”¥Û“=àãO£q*6^ŒlÑáÚ3×CBRF1®Ž‡ìvÞãdL­IZz_tíüEp¶»\BÊ(	{=§n¶mÅƒ«ú)¯ÑQ˜ÅÇwîgÑW7á·]†lî6ñ€ £#zUŒäƒî‰çê°«×2ó)zÈ,úòm¤Sg âÉDcG‰˜Cþ²ë:„èŒ>&=¨ÆÑF£œ¹fÚG~3¢¾ÜÞa‘qúÒ)y€OVMƒ-‚Fj½P3)ë¼ñ½ù/¬™eÉæwÓ™Ö¹¼Œù_a>QAˆ=€³.M36hûÇÆI©ôW[;ùÁñ<{T|O‚Éº/³6±;‡–tKS'˜§º“Ïd n£jÈ?LáíCbr*…b!Y«ÍXÉjC÷º)y·?ú’M”ÆÔí\Ù$‰·sJu8ø°¾@vB/¬I„‹ŽSÚRÖ{ApoˆÞ²§$Ë&ô„ÿH*Ø²9
+f¼fgŒeuèPrÚ·¨q¥/–Qî4Æ	—*}ÅQ«}ö<7U•kå#6ˆ S"ŠWy'jö|Ú»/`&£!æZuÆ ‚]ò\Iðº³ ¬Îíñ´²b6°7/ÝYt—(æYbÜ58JŽñù2\]h»×HñQo­ìæÚ/dL
+·ØÍ"Zõ¥PMòÆW…+à,¯D•Mp×ëwÂX©°PÎ ì¤œEYñÂ2‹Hé¡.7ÇœøUEµäâÊ¬št/x21XŒ0ÐÖƒYzìÎÍ\öaþQ³g‰1¢w	—£}¨«¶!Ì§þÉu=½½Ó¼5(4#‡mâe!­&O~ºîõvÍýñä:gËî‘X7CÔkÛÛ§ÓÄª€Ó=h­ÊÔg-²f´-w8,bïdP–Ö@±`)f$
+~t¿,ö+ÉÃÛzÉ›ÝýY;9nÒc”¨?G—‚Iƒ*,î"o
+×þ9Êa¨ÅZ5õõç[–¬ ç¹ÀVG	T"@À’[M¶‹í+›êËV(2"ŒD´€»Aà¨¹ß³ç0mH4wfr¦Éw
+œg±5"¤ØQ›¾ƒÍ+n·Pìç"h.?ÎÔóÂUðS¯ŒßÐñÈ5«Yw•V'wÝ)ï!°ˆß¢“Mß&ÓÎÑx›£xÐ†ìekØ³kZO’ªèLÐÕIFZª»áÕÚŽðÈä?`ÖeÆò"û©{bdª âÀ2CH~Ö0[Ð]?œ¢*?Qè-ÐaòýU™Öògtg^@ØDøEŠ&¦Û”~›µ”pI(\E…R©•÷¿jKa¾OB'”Ótñ½›`d”%0+E/Ô×ð¯°YÑYÂÞ-‡Ét’Ø†0  žc%¼¨EG†
+6òdDœZ~ŒMý2S*H“œØ¬ž//¦ê…!3‚O.b4š˜$ã”p@hçMC!—9ÿæ|'Îž1pâ§ÌjYºý÷ þ¥´N.!ß"ƒIâòÐål‚SÀWx„S´ZHÚiø·NffOcë +ÚUü2ýßžOë~PsÌ$)Þ™æõj¿ÊU.«Jˆ¹˜ÔKÐ­¸XD)KŠ§/\DŸN±Úœmúy•ËÚÈ£#EÆMû¬<ÛEYË€ÌÈ·ßcƒ'ßouå™k^QäÌ¹¾ž£æ¢ÆÈú›`öÝdÿú{úJË{\Hèø˜AÓ›4ñ¸ý7(/pkÔ×ùLù›Ãê
+(àmòœÆånûJw¥`¸w·ƒýÐ1(8ýO#DÄ#	³\·VJ§Ü),î…hÓSX×Ú‡±°ý—%ë6`a•`Ctô¾]®æ”¹žC§]BDöeë{ý»­R-÷ƒ¡®ÜUd¦y°.uÉ0·4ª¢ØšïwÚÀFDòáËÏšoÐ‹¦6š«Ô§FB#ª7qQëZÈSè8Ao¥µõÑiD|€†‡ŽÕÕéôûÞŠ¿®s#¦pÔöµ5âFÕÒŽàR¶ªÞÊ#	ÒèPù„À1}LnÝ'^(c¡¡¹9|Ï¡Þ’ÄÅ!¦I`þMMëûGOUØµ#þÍ&W‡½Õ«ÍÀ°oe–pÄû£ºBsÞepOkztÈu3]R„¥M¿ñŸ)"â¤÷Í)gø’!Ì>7€ð|î,Ä0ÐøéÕ­ ìæbÉ·h›Í
+Ô+.Iw$ÈwqÍï·¯ÂzÀÜ? yûpkÂ¯„!º#×HcŠ×Áãbõ0)n¼”U)[Ò–"º¹ßÞ¾u|¾›¯	5}T;{ŒÅ¾‡‡3?¿œýçfåˆx’3QzeÝþ½ÅÓ0¼cÕ@ƒ
+!&r3Ä«tTòC>ÌNf§0\Z¬=¬ƒ,[7´‚e	Uš(lÜü…Ãã$ù¡g±	h°à¥Â<PüDË‡õéêñ‚E¿l”©CÎ„šÅ#XF´¡rŒMÁÔöZ³4a*íÀN@$ŽKïö$îØ}¹ë0£¤AÓ{:¸&_Ô¯†‘$–i§Ä]oð#òIe«~ë7fnµ2î…*ŒTÕïZE3ÂÐÉKº2ÓÎÁŠ¼°¼ð/óUŠà¨˜ÄÑK°q*Ì‘‹¬ØÿZÆ™Úø&7ÍÅ?`Åê·™¿î¸£…T1è;ávWY|-Ì…¢S©ußPéªtWp2JÜµøq™'§»N8Y|«Ï­-JÃáz•áÔÚÌWIx“-¥B›”áà©ÉÃ>î!kœÄ©T(Mt	)W	Æé ÌªF ÁoÈkÅ£ñÞÜˆ†Ó¶—{®[ëjéª¤…h\ˆ~w(YGšÉÅzjG;lùÏ7DaÃôæ8t0â–=Àgðþ:0ºp4Ôº±õêq@ž†§É±ˆò¾3Ú}õ€	ÜG¤Õ„ýÄüÏª*k2s„Œú¥Ï—@&é‡ú˜aªŽÝt¡íK3x@æù‹­v§XªõžîÁ?ã? Ñ‡€©ŠÌ‰}gs`D>òã(%%v ç‰!ýÄ´U¬¸¡|nJ›õ¬ùÎ·øˆâäô(ò„DO1yÙÕXÝX6Ü.Ê(é×–ÎFá>!¤š¢U—°‰Øñì2t	Oô™é>ÒÕ<tj|ñìîžŸÒ‰Y§K±í{	áÏVþ½å$…©ÀÄ°œ×¡Ó¤$ý¬Ñh¢t	`(®6`«ºD˜‡/˜ðåšFÛB÷HÃy>¨”•R@_êR "J‡šéû²˜-Ôu\¡ø¢Á›­>GJPY‰F#<é£š"ï¯€aÜ«sUÁw97ðWÐÑàLh‘~IÕIæï(äî†º„›N€pËf£³¶ ˜%¯.j~ëÙ'–D~6ÌbÙ§îÓ}Å²úK{2¸òÄjùÎÞmdß0LÛ#è³æø.Ê\¹(F{ý|×V÷“ŽÏJÙÙç¦×öîw³à± Má_–Ó©|8wRm—YÁVRLÕ¸Bî†ž¯êµ×1À£Ã…k”ØºÎÉÒ
+
+ÙJ2¬)þçZŠ²[Ÿ>ÎAà\>Œ¿”!ÛKš¤6:Üö91+ŸñÚŒuÚ…È vÐ³ô¶•Hõ§’6/?}œŠ¹[ W5‘Êá±3Ñ‹AhêóÎB]|r„§E¸
+OÃ{G®U¹OœÏ?`rkÏîÚä+}5\ž±d# f'2úHRø'òèeÿâV¢G²Eæ¶»¨Bç$-V¯6öG-°·jeŒš4²éu>#k±çËòÀá£w·¼ÇP"7\`bŸÒ’Á(ä—‰w•ÿwH»ÝKD„±„¶„JV™õõÒ´•tØ T”`O{¬Œì—\¼ÞÅEGXÆ¢LÏë7¨µ¿S†Ø-?Ó¸Pk·´ŽËg²ž¬ø‹˜ˆÙ„<[Àaãý1S±Ü.B‘Û²‰‘éYýÈdÃI˜Ý,Qe"1:ŒËÛÞF9K„8øPÁ~è)¿6ˆdÙÁ*7Ä˜#à’i®=½œ“h'²‰HQDâ¨—˜sA\ÅPŒ…IÝ:iÁ'V¬ì5W4õ±t’Ðî‰®÷qüìJ*³Ñ$ÏiŠ±)2â«$ÞT39”"u	¤&¡ÑŸèfH·ªywgâÂ€·Y­ï¹Ù÷#$üóy`<öëùòË%ÎŸ½»:¯cu°ÝéS-Ž\l3Ž§×¯ë¥ÞOdÅó:³b‚4QË®(—¥’Köç/mxi)àE·LÖo<eõœb€æ6ŒÙÇ[âÛŒÏ­ñìš:½Ö8WCGŸ–Çú»Ù¯™&çOJÏÏqŒBŸðâi5<V¨Ï¹H»ž¬•`.PÆxŽŠ?Œ]"²IïëÓºÔÂÄÆã¨øE?Ì#N$oYYMX=ø.uáþ| >6ù3—M­9k¨Ï]˜Ìë€aC8ÆJ7Í¯þí™‰2aÚrvæN€vdýÒþèúüxBÌÉÄ±ó_·½,ÖÖ­e×AV)¹Ü˜ûTâ­–­	LYÇ!ÑÅQr5ŠX²J™â_V<¸~µ3Ñ‰kf£€¯­¾ÑœÎˆ!7,¹c¨‹fx2.š"ûOv0 ßwb·…tƒZ<'@áFxÀ…Ò9*6û6{ž=‘å"YDAI“TÃ{	Mèœ¿«ç•Ha¢2·¦Ä7lÑ¬•Òƒ[.G‘ræ^¬*8ŒAž×•íÔ±Wò™YZêŸ	ÿ±6T(ÊCÒ—¡¼n‰Aß†ë^öæ”“BqIŠÄLeö®àÑA37Ô€ÂýÚp#Zá½…÷pº§t˜XÁ{é|èÉÐú€Ïß 0¢ï57ŠŸOàÇ/¥õ}ð)#á£í‡ ždÝ¹7CÇ¥÷&2LÂL·-ö¦Ìyë(á$®>ÿ2Ø"ÜÇª%¶uˆÁ¿aiì>A¡Âl‚ä åHà‚‡<E¥ÓÃËnÂ6ËËv‡ñ|ë¹ÇðrÔÇ£ŒÉ›Þ÷ïÈ~¥OÁ¢¶Ê½‡×Ôî]Ä]÷hd3{+´¨Zò©õz$r¯»«´‰†D©òG"†?´élwæÔkFmoÏiSGžJÉÒ§¦ûæ\Ë|ƒ@†ÒD:Dâ¾ñ¼ZÇ¥ñD›U?ÝøòNvàÖS‹ÂÀ´8¼å÷O@£P¡—B²VYsíÊ›”>2©Â$"Àk´/ÀIbœqÌƒ#•òÄß;OÖl†0C$µ›>`ŽÛ^%^¨ÛÇdoÇ[ŒG“Ã5#c_Êì·!!f„8ª¶¸[øtx™œÔ®Ié_¨XX—ø4ã­:å#9æØäônÑ`½—–­öSµ?CÕt2×É ·	MnÑ¿QUã© åœ©Æ#%éšcðáäúB¹ù–¦LN3¾èT™è_¡ÙPñ]éédnHyýÓEDýþÄa³xî58Z²!^@yÛ22Z¢Ç†yØ˜itÔ±‡lÐ…V@½ë,ûnP‚’G©…7Zb8vz·«
+éb_ØÈˆR>i&µ#¯.\"Ó}´Nñ]z1§—ë7)“„Ó¤4æK\ëé³QWúóÛÁr®|2ú*½Û×PŠäòy‹`|ÞÏ_ÇßSb9K¼}ðŽpJÏšî4?=v^Û¹­Æ#z7‰$ùÊÀºÀžø$,÷oOÙÒä@Ñ;²YÖðé	dÌ6‰•J¥Ä|†ó'<']±£¦¶rìÇÿvÑ’+æýMaI K;t"–ú¡·TRÃY\—;;¨¨«È‰meyóS*}Ýz_*¢M‰»ïºŸ°tuá5sÜFv¡Jòcú/ïýöà°œ).åå)·²Ö6¢SYðn€ªqÀ—%xŽó¸²×€¬ò^­9ÿLFpŠkˆ%©Z‹Êlq¼¸ºîÎjöF‘úíêQö˜`2Ê…šÅÌ”†Û-Q9uü¡‘u19‡¿Q;I©3ÍÊm¦æTcÓv#€û@'‚–”±x3ðr”ì]-…ïÅ,pÍ},ŽSÝ¨P
+"¹O1æ’°Ás® î,x_3@×p¬šxH	¨ôÐÒñØºCÀ0šJÛŒmWlé°á›>¤,cÓÓkÄ4Å®½V¶Ò“n•j<È¶aZT…Š.iÈçJéš»&0†YBÑ eáR~5c±n·5¸¯û§æ…ªuN!÷4B@øRnãëž¡Öp8ICRT‚QÊz€ý°ÌÞÞÿÒ·Q¾ÁžÇ·=ì;ÄxHØê,z_æ¥²¼øÓ‘–|ÑÓg‡¸žYN]Â!å%@'¢R7àÆGÒ¼µº™qw´?yW§"‘°2Ÿ_]Ô9™MÌÖûWŸH`%¾ë9˜	<aAÚq”piV¹#*h@&ŸEdóZé1±!€×ˆ5æ<¾\¾’dÌéÙwÃœ‹qò•ã.
+TõkkŽ]KÎkNÙs=“ŽÒÄÓü²…Cµ‡ å…¨ ¼
+‰'MQÞV‡²{./7ùyÔxÃ%§èá¢ŠÉ:Jk”·•<šÙd@ùE®²%¾rœQ„ÂÇu˜3xò¼I{ pLW°qLžCAXë…tî^8Ï€©:mŒ-y£°iÃ·w§ú›Ê{ñ0ÿdÂº»8MH‰Kgè[ËV%ÂjBaá¹m.äDª4¹oîÂ}ÉÁƒž¬‘ì]“ÜG~)·3Ò*‹öÖ‹?4áÇàµ²/ã&¯£óZj“›¤Ãóxn‰¤~&Ç«Ã„¤¾ž*=†\fßÖ 5œCÒ*Zœ=7]@©¨X(¯wI÷{6O€Îzy><­–x«.g>¸îùØ·@•P_ªQäL,÷š¨I.lžª=Z½«´EIÌf³‡§éú÷m–ãÍ ëTØÂ.ñ¥4˜gxP¶p‚c173k¦MþÔa¬[¨K¬g`r4k™úýi¨ed…tDÛÅè³I¡AVÌ§ú^Çé$Wó¯ÙWÀûo y¾Což¨YI_˜Ñ`à·jZæIUõ.CÊuB§F˜?ž/ZÚ¬t¾{SÎü^+—ˆWÊ)•»êý<ân¶×n#Kð…K¥7˜ïøe ÞW’9VyØùÞœ—tÙ*•ó!î.8Ç‰/¡÷¤gj:(VFðd±k¤×rV_fõÉ®Gý{.}?÷4 ä\N‡¦=Ëèp‘‹/oE]•òKú~ ç˜xe§D‹Þ5â1þ_Ë3ÓZ`zútnGØAF¿³d!À~Á*¦Å ý5þ¥ö¯"æ‚éå÷èåeu$æCzoÁ|=ç¡É¼f SÞ¥¤x½”R„fü¹bÏÃÍH„Et|—«û¿Ðz
+(bœÆ»&å©x»:ï]à‘WV_\|Bï¤V¼Ÿ21,üiŠ>(¹pCØËP~ò!AÏB`àÞA§3)ÿr}¶êŠS0AqÁ.È;ÐƒÂ[A3TåZ¯—©ašŒÊä€"¦—„Š5=Ð’ô®ïÌuµ¼çúm¬~Vï$¯¤ßÂzù5‹¸yçoW]–Y™o0®TÞ]½ÈÀóþCäiûìÆ;üœ"ËìtË»R»ãKŽõÿûIùòÞ$YŽF{p©v›¬…ŒZÂ¥F^”i·ýxÙñé¨•j6Õê¹¤$F@{^mòº[MTjÄÝPÒÉ ¾o¥† DªA^ùtW§˜“ªÎµÀ6´œÄœú<·ƒÃŸˆnì}ˆ2‡Îîç¨óæX†^A¢HâX°œ`mí¨WO‘òŒ³ØÏ‰õ• ¥T[€Ž </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Drivers\CMSIS\Device\ST\STM32F3xx\Source\Templates\system_stm32f3xx.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 78</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 42</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 36 71 50 43 85 39 79 14 87 68 84 66 91 56 51 11 24 25 35 5 67 60 27 75 64 94 93 17 10 0 1 81 49 13</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 36 71 50 43 85 39 79 14 87 68 84 66 91 56 51 11 24 25 35 5 67 60 27 75 64 94 93 17 10 0 1 81 49 13</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Src\stm32f3xx_it.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 76</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 90</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25 35 5 67 36 71 50 43 85 39 79 14 87 68 84 66 91 56 51 11 24 60 27 75 64 94 93 17 10 0 1 81 49 13 48</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 25 35 5 67 36 71 50 43 85 39 79 14 87 68 84 66 91 56 51 11 24 60 27 75 64 94 93 17 10 0 1 81 49 13 48</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_cortex.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 59</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 92</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25 35 5 67 36 71 50 43 85 39 79 14 87 68 84 66 91 56 51 11 24 60 27 75 64 94 93 17 10 0 1 81 49 13</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 25 35 5 67 36 71 50 43 85 39 79 14 87 68 84 66 91 56 51 11 24 60 27 75 64 94 93 17 10 0 1 81 49 13</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_spi.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 72</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 9</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25 35 5 67 36 71 50 43 85 39 79 14 87 68 84 66 91 56 51 11 24 60 27 75 64 94 93 17 10 0 1 81 49 13</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 25 35 5 67 36 71 50 43 85 39 79 14 87 68 84 66 91 56 51 11 24 60 27 75 64 94 93 17 10 0 1 81 49 13</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\matrix3x2 Configuration\Exe\matrix3x2 Configuration.out</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 26</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 29 19 54 15 92 32 55 22 16 47 61 63 46 89 9 31 65 90 42 4 3 95 83</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_rcc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 52</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 46</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25 35 5 67 36 71 50 43 85 39 79 14 87 68 84 66 91 56 51 11 24 60 27 75 64 94 93 17 10 0 1 81 49 13</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 25 35 5 67 36 71 50 43 85 39 79 14 87 68 84 66 91 56 51 11 24 60 27 75 64 94 93 17 10 0 1 81 49 13</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Src\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 34</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 19</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25 35 5 67 36 71 50 43 85 39 79 14 87 68 84 66 91 56 51 11 24 60 27 75 64 94 93 17 10 0 1 81 49 13</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 25 35 5 67 36 71 50 43 85 39 79 14 87 68 84 66 91 56 51 11 24 60 27 75 64 94 93 17 10 0 1 81 49 13</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+</project>
+
+

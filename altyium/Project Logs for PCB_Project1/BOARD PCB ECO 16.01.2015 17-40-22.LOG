@@ -1,0 +1,17 @@
+Removed Pin From Net: NetName=GR2 Pin=U4-1
+Removed Pin From Net: NetName=GR3 Pin=U4-2
+Removed Pin From Net: NetName=GR4 Pin=U4-3
+Removed Pin From Net: NetName=GR5 Pin=U4-4
+Removed Pin From Net: NetName=GR6 Pin=U4-5
+Removed Pin From Net: NetName=GR7 Pin=U4-6
+Removed Pin From Net: NetName=GR8 Pin=U4-7
+Removed Pin From Net: NetName=GR1 Pin=U4-15
+Added Pin To Net: NetName=A2 Pin=U4-1
+Added Pin To Net: NetName=A3 Pin=U4-2
+Added Pin To Net: NetName=A4 Pin=U4-3
+Added Pin To Net: NetName=A5 Pin=U4-4
+Added Pin To Net: NetName=A6 Pin=U4-5
+Added Pin To Net: NetName=A7 Pin=U4-6
+Added Pin To Net: NetName=A8 Pin=U4-7
+Added Pin To Net: NetName=A1 Pin=U4-15
+Added Room: Name=schematic

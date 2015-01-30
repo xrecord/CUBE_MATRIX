@@ -1,0 +1,338 @@
+###############################################################################
+#
+# IAR ELF Linker V7.20.2.7424/W32 for ARM                 23/Jan/2015  18:28:53
+# Copyright 2007-2014 IAR Systems AB.
+#
+#    Output file  =  
+#        D:\REPOSITORY\CUBE_MATRIX\Matrix3x2
+#        rev01\matrix3x2\Projects\EWARM\matrix3x2 Configuration\Exe\matrix3x2
+#        Configuration.out
+#    Map file     =  
+#        D:\REPOSITORY\CUBE_MATRIX\Matrix3x2
+#        rev01\matrix3x2\Projects\EWARM\matrix3x2 Configuration/List\matrix3x2
+#        Configuration.map
+#    Command line =  
+#        "D:\REPOSITORY\CUBE_MATRIX\Matrix3x2
+#        rev01\matrix3x2\Projects\EWARM\matrix3x2 Configuration\Obj\main.o"
+#        "D:\REPOSITORY\CUBE_MATRIX\Matrix3x2
+#        rev01\matrix3x2\Projects\EWARM\matrix3x2
+#        Configuration\Obj\startup_stm32f303xc.o"
+#        "D:\REPOSITORY\CUBE_MATRIX\Matrix3x2
+#        rev01\matrix3x2\Projects\EWARM\matrix3x2
+#        Configuration\Obj\stm32f3xx_hal.o"
+#        "D:\REPOSITORY\CUBE_MATRIX\Matrix3x2
+#        rev01\matrix3x2\Projects\EWARM\matrix3x2
+#        Configuration\Obj\stm32f3xx_hal_cortex.o"
+#        "D:\REPOSITORY\CUBE_MATRIX\Matrix3x2
+#        rev01\matrix3x2\Projects\EWARM\matrix3x2
+#        Configuration\Obj\stm32f3xx_hal_dma.o"
+#        "D:\REPOSITORY\CUBE_MATRIX\Matrix3x2
+#        rev01\matrix3x2\Projects\EWARM\matrix3x2
+#        Configuration\Obj\stm32f3xx_hal_flash.o"
+#        "D:\REPOSITORY\CUBE_MATRIX\Matrix3x2
+#        rev01\matrix3x2\Projects\EWARM\matrix3x2
+#        Configuration\Obj\stm32f3xx_hal_flash_ex.o"
+#        "D:\REPOSITORY\CUBE_MATRIX\Matrix3x2
+#        rev01\matrix3x2\Projects\EWARM\matrix3x2
+#        Configuration\Obj\stm32f3xx_hal_gpio.o"
+#        "D:\REPOSITORY\CUBE_MATRIX\Matrix3x2
+#        rev01\matrix3x2\Projects\EWARM\matrix3x2
+#        Configuration\Obj\stm32f3xx_hal_msp.o"
+#        "D:\REPOSITORY\CUBE_MATRIX\Matrix3x2
+#        rev01\matrix3x2\Projects\EWARM\matrix3x2
+#        Configuration\Obj\stm32f3xx_hal_pwr.o"
+#        "D:\REPOSITORY\CUBE_MATRIX\Matrix3x2
+#        rev01\matrix3x2\Projects\EWARM\matrix3x2
+#        Configuration\Obj\stm32f3xx_hal_pwr_ex.o"
+#        "D:\REPOSITORY\CUBE_MATRIX\Matrix3x2
+#        rev01\matrix3x2\Projects\EWARM\matrix3x2
+#        Configuration\Obj\stm32f3xx_hal_rcc.o"
+#        "D:\REPOSITORY\CUBE_MATRIX\Matrix3x2
+#        rev01\matrix3x2\Projects\EWARM\matrix3x2
+#        Configuration\Obj\stm32f3xx_hal_rcc_ex.o"
+#        "D:\REPOSITORY\CUBE_MATRIX\Matrix3x2
+#        rev01\matrix3x2\Projects\EWARM\matrix3x2
+#        Configuration\Obj\stm32f3xx_hal_spi.o"
+#        "D:\REPOSITORY\CUBE_MATRIX\Matrix3x2
+#        rev01\matrix3x2\Projects\EWARM\matrix3x2
+#        Configuration\Obj\stm32f3xx_hal_tim.o"
+#        "D:\REPOSITORY\CUBE_MATRIX\Matrix3x2
+#        rev01\matrix3x2\Projects\EWARM\matrix3x2
+#        Configuration\Obj\stm32f3xx_hal_tim_ex.o"
+#        "D:\REPOSITORY\CUBE_MATRIX\Matrix3x2
+#        rev01\matrix3x2\Projects\EWARM\matrix3x2
+#        Configuration\Obj\stm32f3xx_it.o" "D:\REPOSITORY\CUBE_MATRIX\Matrix3x2
+#        rev01\matrix3x2\Projects\EWARM\matrix3x2
+#        Configuration\Obj\system_stm32f3xx.o" --redirect _Printf=_PrintfFull
+#        --redirect _Scanf=_ScanfFull -o "D:\REPOSITORY\CUBE_MATRIX\Matrix3x2
+#        rev01\matrix3x2\Projects\EWARM\matrix3x2 Configuration\Exe\matrix3x2
+#        Configuration.out" --map "D:\REPOSITORY\CUBE_MATRIX\Matrix3x2
+#        rev01\matrix3x2\Projects\EWARM\matrix3x2 Configuration/List\matrix3x2
+#        Configuration.map" --config "C:\Program Files (x86)\IAR
+#        Systems\Embedded Workbench 7.0\arm\config\linker\ST\stm32f303xC.icf"
+#        --semihosting --entry __iar_program_start --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x08000000 { ro section .intvec };
+"P1":  place in [from 0x08000000 to 0x0803ffff] { ro };
+"P2":  place in [from 0x20000000 to 0x20009fff] { rw, block CSTACK, block HEAP };
+
+  Section            Kind        Address    Size  Object
+  -------            ----        -------    ----  ------
+"A1":                                      0x188
+  .intvec            ro code  0x08000000   0x188  startup_stm32f303xc.o [1]
+                            - 0x08000188   0x188
+
+"P1":                                     0x14ec
+  .text              ro code  0x08000188   0x366  stm32f3xx_hal_spi.o [1]
+  .text              ro code  0x080004ee    0x2e  copy_init3.o [5]
+  .text              ro code  0x0800051c    0x8c  stm32f3xx_hal_msp.o [1]
+  .text              ro code  0x080005a8    0x5c  stm32f3xx_hal.o [1]
+  .text              ro code  0x08000604    0xe2  stm32f3xx_hal_cortex.o [1]
+  .text              ro code  0x080006e6    0x22  zero_init3.o [5]
+  .text              ro code  0x08000708   0x1b4  stm32f3xx_hal_gpio.o [1]
+  .text              ro code  0x080008bc   0x1e8  stm32f3xx_hal_rcc.o [1]
+  .text              ro code  0x08000aa4   0x2a8  main.o [1]
+  .text              ro code  0x08000d4c   0x314  stm32f3xx_hal_rcc_ex.o [1]
+  .text              ro code  0x08001060   0x23c  stm32f3xx_hal_tim.o [1]
+  .text              ro code  0x0800129c    0x58  stm32f3xx_hal_tim_ex.o [1]
+  .text              ro code  0x080012f4    0x56  ABImemcpy_unaligned.o [5]
+  .text              ro code  0x0800134c    0x6c  system_stm32f3xx.o [1]
+  .text              ro code  0x080013b8    0x28  data_init.o [5]
+  .iar.init_table    const    0x080013e0    0x24  - Linker created -
+  .text              ro code  0x08001404    0x20  stm32f3xx_it.o [1]
+  .text              ro code  0x08001424    0x1a  fpinit_M.o [4]
+  .text              ro code  0x08001440    0x1a  cmain.o [5]
+  .text              ro code  0x0800145a     0x4  low_level_init.o [3]
+  .text              ro code  0x0800145e     0x4  exit.o [3]
+  .text              ro code  0x08001464     0xa  cexit.o [5]
+  .text              ro code  0x08001470    0x14  exit.o [6]
+  .text              ro code  0x08001484    0x10  startup_stm32f303xc.o [1]
+  .text              ro code  0x08001494     0xc  cstartup_M.o [5]
+  .text              ro code  0x080014a0     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080014a4     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080014a8     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080014ac     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080014b0     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080014b4     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080014b8     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080014bc     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080014c0     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080014c4     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080014c8     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080014cc     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080014d0     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080014d4     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080014d8     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080014dc     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080014e0     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080014e4     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080014e8     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080014ec     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080014f0     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080014f4     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080014f8     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080014fc     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08001500     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08001504     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08001508     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x0800150c     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08001510     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08001514     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08001518     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x0800151c     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08001520     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08001524     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08001528     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x0800152c     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08001530     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08001534     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08001538     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x0800153c     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08001540     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08001544     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08001548     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x0800154c     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08001550     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08001554     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08001558     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x0800155c     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08001560     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08001564     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08001568     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x0800156c     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08001570     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08001574     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08001578     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x0800157c     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08001580     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08001584     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08001588     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x0800158c     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08001590     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08001594     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08001598     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x0800159c     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080015a0     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080015a4     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080015a8     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080015ac     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080015b0     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080015b4     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080015b8     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080015bc     0x4  startup_stm32f303xc.o [1]
+  .rodata            const    0x080015c0     0x0  zero_init3.o [5]
+  .rodata            const    0x080015c0     0x0  copy_init3.o [5]
+  Initializer bytes  ro data  0x080015c0    0xb4  <for P2 s0>
+                            - 0x08001674  0x14ec
+
+"P2":                                     0x2158
+  P2 s0                       0x20000000    0xb4  <Init block>
+    .data            inited   0x20000000    0x62  main.o [1]
+    .data            inited   0x20000064    0x3a  main.o [1]
+    .data            inited   0x200000a0    0x14  system_stm32f3xx.o [1]
+  .bss               zero     0x200000b4    0x60  main.o [1]
+  .bss               zero     0x20000114    0x3c  main.o [1]
+  .bss               zero     0x20000150     0x4  stm32f3xx_hal.o [1]
+  CSTACK                      0x20000158  0x2000  <Block>
+    CSTACK           uninit   0x20000158  0x2000  <Block tail>
+                            - 0x20002158  0x2158
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0xa0:
+          0x200000b4  0xa0
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0xb4:
+          0x080015c0  0xb4
+    1 destination range, total size 0xb4:
+          0x20000000  0xb4
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data
+    ------                  -------  -------  -------
+D:\REPOSITORY\CUBE_MATRIX\Matrix3x2 rev01\matrix3x2\Projects\EWARM\matrix3x2 Configuration\Obj: [1]
+    main.o                      680      158      312
+    startup_stm32f303xc.o       696
+    stm32f3xx_hal.o              92                 4
+    stm32f3xx_hal_cortex.o      226
+    stm32f3xx_hal_gpio.o        436
+    stm32f3xx_hal_msp.o         140
+    stm32f3xx_hal_rcc.o         488
+    stm32f3xx_hal_rcc_ex.o      788
+    stm32f3xx_hal_spi.o         870
+    stm32f3xx_hal_tim.o         572
+    stm32f3xx_hal_tim_ex.o       88
+    stm32f3xx_it.o               32
+    system_stm32f3xx.o          108       22       20
+    -------------------------------------------------
+    Total:                    5 216      180      336
+
+command line: [2]
+    -------------------------------------------------
+    Total:
+
+dl7M_tln.a: [3]
+    exit.o                        4
+    low_level_init.o              4
+    -------------------------------------------------
+    Total:                        8
+
+m7M_tlv.a: [4]
+    fpinit_M.o                   26
+    -------------------------------------------------
+    Total:                       26
+
+rt7M_tl.a: [5]
+    ABImemcpy_unaligned.o        86
+    cexit.o                      10
+    cmain.o                      26
+    copy_init3.o                 46
+    cstartup_M.o                 12
+    data_init.o                  40
+    zero_init3.o                 34
+    -------------------------------------------------
+    Total:                      254
+
+shb_l.a: [6]
+    exit.o                       20
+    -------------------------------------------------
+    Total:                       20
+
+    Gaps                          8                 4
+    Linker created                        36    8 192
+-----------------------------------------------------
+    Grand Total:              5 532      216    8 532
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+?main                   0x08001441         Code  Gb  cmain.o [5]
+AData                   0x20000000   0x20  Data  Gb  main.o [1]
+AHBPrescTable           0x200000a0   0x10  Data  Gb  system_stm32f3xx.o [1]
+APBAHBPrescTable        0x08000a94   0x10  Data  Gb  stm32f3xx_hal_rcc.o [1]
+BData                   0x20000020   0x20  Data  Gb  main.o [1]
+CSTACK$$Base            0x20000158          --   Gb  - Linker created -
+CSTACK$$Limit           0x20002158          --   Gb  - Linker created -
+EXTI0_IRQHandler        0x08001411    0x6  Code  Gb  stm32f3xx_it.o [1]
+HAL_GPIO_EXTI_Callback  0x08000cdf   0x3e  Code  Gb  main.o [1]
+HAL_GPIO_EXTI_IRQHandler
+                        0x08000881   0x14  ÚNëp¼zª¯ËªXÈòœØ¾Xw"3çC¬³yónåöJNãêf·bò‹ß
+:õùz3Ó"yå0ôU‡‡İ¤Ó+šÍbúúÚ÷c¨;.9 f·?»Kô½Ì¶Ş¹óWCŞayí‰„c>áA!ï{Î€R÷‰ğ2ki$Ï®AµŠAŸÕNs*J’¦buüwVªkÔ¤H­|¼ã[d«êæ!ª‹5ª§ëN„- PKU/?”f †ô«GS5øJº¦½Õ?“ÇAS(ŒOùÎÁñ•fÄL‹è¢wµ<¸’Åú[)%ˆñòw…ß~à•VôD*„R®Ât†9ôcÆy·qËÌŒæCÚŒ¥í‹%««Qh‰ò|ÌÅ†ê5‹¾:ÔmŠ_CJî÷m€ŠBğŞaB*Eû5™X»¡’²OPˆ2-è‘çj…nÄZiÖ¢ssãÀ<õ°v¿aT-Ñ„¹l˜¼ÀZVÈ1ˆ¨ğIeúóHN¿í‘@)HˆôÔPR¤Å¯…óª™äeÌ^ëì&ã©¦Qâg>§Ëı"¾øäİÏ@Clëpwğw: Şx¯ÀxÓcä®P…¹kò«ö‡¬‡0ÍÅ&*—lâ¢ì}»Qù9ìİAÂÖ²B; Y(| ?Iè¯Â›Rlçš¤ü†|ÉV|0°éw>ıLÇÆñd}ôêú|PÑëğ½~} UïÛ\•,T˜ [k·ì°.K9à*Æë¡ìó!à?Êtú…î¨v-¡X$£Vş/ÎY³Wâà6A©{cïÍSr
+”è­»Pº÷õX•nUGÀßÑ`»!ú.öO8¡ S§]qåQã–:¢²ækm2q°ûÙ~N{ëıOÔ¢ ¸ä|˜‰oŸ\YÎ5Ğ’§×şó¬éŸ4½¯£•i{üz+ÙV¹¯äz°v•-÷º"˜€Pƒ6Úb6şšÃn[I…IŞ…¿j¶<=Ôä†SJˆÙï8äéŒËgCÌ©;ô¸E	ˆƒl8°án™zÓj¾¡rHE5›ööŒhsä¿&s›"nşÌşÂšŒ|í=7_êG¨Öu$İZš'§¹‚'	ğ¢O´Àëö¡hå%Û³âW©$fª&‡}™†ACUÙòXQIúeÉW+uØ¶¹¬O+"§²Ÿ„J_ãv3ı,ÍÓoÿ9“Ô€jB˜]²ÿx®~£JÌ‘hÄw?\ÃI1B¯
+3i.º÷m–Ò[L&ë'Ô¡†1‡²pg\:áú éUö½àï¹ÊàX& Š~şÕ¿Ü]äIÉĞgÉEÌ•(CY¿q[Ş¯Â0¼ú:r£šÔD«ß¼L¸KÎÅLMñ 0f0ŠØšİ1‚ÛOä“Õ¯Bl9!TO.¹†\­Bº 5á0•Kš>ôTÃ³iCƒI:UĞ_u¾Èº+»ijÌıöY5ãPEâñ«¥ÿõPÄƒ†ï=ûß®øÛŞÄ*Ç 0rúzXåÖ0ä%që‹4³8ş×ä"{Åõv¨Ğmïìl_w–ùb.FªÙNÜÖÈo  2
+#‘—wYƒß×kMìå@x÷O×#_åÎô-Çï”¤Ä²iŞySR]VÙ1pÚ[p&¯ 9tıi²éô ¾ŸIi_f„c’[š.4¤Ø¬Ô62E¸-óş€Ìo_“C?Ïì¨»ÁÃ±ÈjPŞÖ›f9?'ú°NdHpõ¢VØB‘è¨MLzšL+'!wn8=èJÒ}®fë‹N^–)2«Í¿tp“3t»¬cõíYàxëíÔ†ƒF[Ò36`*¯š¼§İõˆH•äî\›b\Èƒå|Jkäµğt±„8nğ£¹´—l¿Å×”«Ll
+ŸÎNÚœ‰ø?Évj2Al‘Á_/oN=}¾µ6ö ½Ğk“½5ø»`AõçŸëç
+&y[òmì¼Ä'åMr$?|xa„}»¶æ›³1JF ¼½ÿ‰<xš»›)Ö­ÜC—˜¹üí¤
+ò##YÑŞİÍP¶À­Èç6¹üà?JÕö³BÅbÎµÏ[úWäˆxÎš[ÖŒ',ªt„åiŠªÓ—˜¹ÍaÉ¨½5Şiú…¿úİMßùí¢ŸŸıÄ&ru^rÒF}Î±Å¸wb`ïßÕÀ ôµ_ãrúÆØ!ÖÃ`>¥«’ªƒˆû! jÛITKTG…•É„vh•ÜW?ø<n×ÉlK†ÆòE}{CÆ-4À`{—ã‰×én·=Õ.õ=Ænµ‡ö³eT—Î(Òx›ø9Á4“IÕ´`è¨¶([¦ÌşDş,©"†‰mrr™XÊ`Ù%êÑ¾HDªjŞ ;ú¬°J‰ô&jBG±ı"bÉ¤£ó1™)ª	çhvÙÕ1\[X¨ŒÙüµç¿ï¢!UáFÇ¦§cTK»(v5Šc¯:„dÊ2A?X{½,×*W^G‹+‰šdYC¶„”M> d;“ãJYØ„F˜på¦Rw¨÷ªà¥BÕõØ§Õ›CWÎmÒ®­@­‰¯ÒBOc­şõŸ£e*ÒüJ3âYîğÁpãËúÂjÆÅ2‘Sú™}î³D1Hè	ÖÑ'…21¦™YttY?×^c­ßËš¢‡ô·ôºéº»lé´\¼±—L%ş=àáp2góãë™³ñ—Ÿ7½äœø'§Ê§Û£•çíl) ‰Än¹úx“â5İÓ4TlxfˆCs£ÆkÚ¢[·å\X¦8Gn¤ÃàWê‘GX›]ÙÑ¢;¦¤~ÅF1£6l%°Bœ¬.!#CuaX_J[‚8·M±îÆHXÁ­^íèJÕW³Ñğ¼/-ê<÷®ş•û¡4„wü!:@ƒôÅk]?éF-‘t,‚¾hº\œÏC„~\bå‰uÕ‚ĞÈî•úi›vCOÀ7u¡¿!Ãïx±Ğò™"9sü>Óa h°³Wf¼¹nQ©b×Ahö&*]èá–ûÂ"hÀó.ˆT¢T=\àûÁ[cw1J,Ïyj:«ãrÊ»Úëõ¸(G®5Êo(¥á2n›ô	Ò¤ç*/”ºª†J˜wH4ñ3T|$×E3üa¿E×ÀABŞBãn£Õˆdx¤ë’Ìi-ìÎÁÔ*Ê	OQ€©õP³$©ûÃam)"¨Ñıú!	‘ğr€è¢»%Ò¨åğ.ï¿rL¬D´ÿëî°àÕÀ×öA¬@Êš‡eÀWƒs©¦·ğW"·a»oïçdØ´ˆËNïÓc-Rº1|š±p2/NÕ·k+(È@7[O3Õ®Y•¥"7}±9aV)I˜pkWíÕî€“µ>5DÓÈeš¥³2Taó¾å3~i1²Q»¬%ÂZ‘Oÿ$İTa#%·‘—¹ÂDõ"ûV†öDm‚vi3‹/§ó"{}…v•pâƒï8@H&l,ª'ñ^Ua}k!ê-˜×K‘«'"úN–,AƒÜá2nœ©Üùé x\0jıœÈÍB×A“ +¯î«Ÿm5‰Ôè¥ò(tLXd©5#òä	s’3M
+×µ"Áí@Ê¡Ÿ4å|Æå™§ZJüÒ.v÷[Dj“ÖÌqs½Î|¨@Šœ—Ë
+fãË‘Ü÷D©½ßWúFèîû(R¤ìYï
+ÉÈ lRPÙ-ÙiaèL,:xÓ«RŸ	oV¼KIôÕ¨¢f£»ÿvsCì·±ÌÕ'G=6-·ƒ¡¶s¹:‡jÉ†ø”²‚J’‘7†2ú5L œƒ”˜qí0°]÷‰iA§‰¤b%Ï)I½k+]
+°G×R‡"¿ØwÃºïíÌJÚÔ€İ¾÷Z«M…d;Î¸àü¯ßğå6ëEU³Íç®·jÖ[ƒPûÚâ&Ãß@T(Zöp×ÊÚc5‰DE7=®byèÈ„æ/N”äìå%´}ÃÇM]2..ÆtŠñ¹½îÎêåÙY[­bLÁ4Ã!çˆË6©Ó×¿ï€9­qÑµŒÓ¹p´(2şâO~1P ZÔ7×Iü„=3†­ášKE!dåŞà±0 ·Ê4w“lJ¹—ğÔš­w£Î¿[‘±)µ\1ZøÁÍFÖ =ì¼›’§»yHEîZAŒµ¯yÙªzMZ¿ ­eãp:¼@%ªXØ‹ØÛ=8<´æfÖ“3£É-ø”Á/OÓ*Uéóë`ã—KîÜ˜¥ˆ&§İ6B1éG_úÑW	AÍwô‹Ÿ š¹"  –©ÎrµN¤mN£şö 1Ö9óv>4¥ZáÍäÚLr×?iØPØ…cÊ¾ˆİ•wUjû•Éªæû·½¬w–‰ òı#!ÎĞ~{Áû©mUîŞ¡2&Üê»Q¾ŞÈQù£kX÷éƒ#:Zˆ†î ¼¦·Ü$ÌQºÓ8ş”2
+~n¾d‹.0’° ØÅ h€^AP²Ùîâæ~šÚ’Âe™|s‚wÉ¬lreë‹ÒOºYÓ‘’¡8<›Tû›•ßpo]9GöAv~’¹¾YYËü•üFNI#¨ ğçÈÕÚD zÿ÷ÑZ”7>Õ3ZŒ(Økí üßèvŠ*g,ĞH½İ^B3@z¡Tç=q­˜‚”\Gàßw>îxÜáWA<sé·Ç¿ÒÃÀãn6ÆĞÍÆ?DËìğ%±C	å:‘V#œáÍbËƒôŠÂ…¶…çş3ïzpw»Şéî÷²mWîA»%§n
+SÿôŸ)Ÿ)_àª}©hvKJZ¨Zo×	Ìàr¿…Ë>6fÚ¬	^Ä–_’c$&üà·s*Éœ™³)±YÊ³}ÊÊ€Q–—UéšÃdÊBº+?Q@ß(—YsŒ4ÊQõä²Reòa‹^ òˆè´Œşğq²1ì>†¢Núˆ–š¶á¸WÊ9C¶Ê^NUàÇ®£”Ş å‹¡	}Ôáu•äR6Î¿ÊZ(¡½hK¡ Ş¿L+ô9Xä	GORµúÛ¼À"l"óK€(cşA='$¢)-¤Ód#óHhâjfZ«(Ã²òëŞ)µ–1?°‚¨à“áÖh;•fE=ùz¼;|gˆÈVÊ+ZzJğÉ e›|åÄ³!„«ò¸RZwÀpÑ ª
+¥ÑÇµ¸È2«ã}ŠVMX°ÈWf´ë¯ÿ-äIÉºşÜ}Ûìëå"!¡… š›¬†yí*ÔsÙÜDÀ"ãß>$¹†Àúà
+ÄYöêBÃË›˜V3GŠóf€yá£fœÊ02½gÎÿ´RL1ª8ØñÕy EBíÓˆ›7Ñ2(½¥§†ÉÆ–Š¬˜ú¸*Ãuä'$z_O©aÃ«¿Ï‚ë4[X(:ù÷i‰Cí—¢?¶­"ŠvHÀÿ«&æ„d`Ğœ–Ã/s˜šãÑ’>pîácFÄ%:aA²ö7v
+01İŞ í0Fà©³ı|ˆ¾&Ö
+ 2^>v~•¬¯d×»ö~¾Zå}ıËG§|±@¼Â&Ü?„;¡³¼P«&±H†Ù;NÆƒP¯
+¬4køË¼¡}ü7C‰•4V/Hë‘]Ïº­®'ÒiI­–·Ì– ­`å×–IdğVŸ”'ü1SrÏÌf7ñH(t2–™€5<8†ÑMøÂÛT0lßïß‘ÁÛvEİM!°Ê­Ÿ.¿õ9ˆ}U©ˆ¿¯ƒş1h+Ùçìa.ÊyD*m;+¡ƒ<jªS¡$„hàõ6L÷„÷åk¸Ã;‰Ã:£½äX¦?Á™H#BmŒÛv|3ú½{áƒÿ6í0Ò©†énÊ…¦ØÓ:³i»úAÊòA†pùq˜*“wóEÇÆÍ^üµb.(–`ÄJ±V6%%‹gê&õĞ%tˆd­Íßv‘—&<Z˜z}ğ3ÛAÇüzç@>Üv’·y€üë›d·¹«£ø`sÚäP¾sm]Â¿¢¾QêÑ¸msIŞtSîa1Jÿ¬ÏQ÷×ˆXêz„?»hÜèàÑíxí¿W‹Ê&ÆèÓ…úöY›Á}uh´Ùq=Hõı`‘#¿ÖóÉÅÄ°5[ØK`×G'Tƒ5J`×U1MèX*ñ)ç¾×Y<º4ä ûÜËŒên-Ó.w·Ùÿ(Å~×¹íÈ“™õAp@‹ìİº`¦«'f @Ü°ƒ&ÜÑw‘ÔõË~-iopé IØ4Êÿ0ìéx¯Cp?l©­ÕºwÍ>V3Ò½ï¦*Jç1Üi2_?ì÷:ËÜ:)>ÌNG	Æ’ «ØÃŞæÚæyyó8“sÀ1jó,xn®Û,JP‘¿7p²aìúT§ªäÊã‚³F=Ìn¨v
+•ä;ŠoIÒ¯y¦÷ ‘[1Û÷^ˆõzæ¡¢š ¡5™^Ù…·
+0tù½>ŞF(äø‹Ú|û“‘¬§ã	¡Ë":ı®—‘NP6¢NO9‰µ¢åÀBíbmêÂ¯jW­NzTs|W[bÑ·yn
+jC©1'C\A5kÙ"{k‚99";Áû=^ïPá‰nİyM@.%g«àóg'5uCR+¬Ö÷VÖú22¶EŞgu$L9äl]9òHş<f:¶Ás±÷Åk~Ïø‡kÿ+šºÌ5ÊèÛJ?°ñ[kÉòÌ‹
+nù]ÛÓÎZ³äú©>œd
+ı‹^&pt`V\ÛécYÍb	5á½<”}]A/#•e·¡WÑÔ$¿¶õ^_7bz/ŠÆq`™ú˜ƒ:›7Qìù¼Cı‚Uûî ‹ßÊ¯Z‹Ç*üÌ^¾í"£A©ÔLëÉ¼u¯ºÏ¼ËÑn¾—!¿Oâåd+ÎœAM}k”óüL*B"nTöXdT¥–ÙëŠŞº×Ñ:ˆÇÔèPšÆpá8“jÖPÃl‚œğ]KVhR¥^üÔ ÇOÍógŠ]Œ<¬ö4Û‹ThÒY°1)F¾/s¡amXÑ¼
+£`¨hæpËf‰b:¼ï«>P›D¼·¯øÚäX´y~Y¨éQŸpó²šîæ>5a»˜U)Üà[Æ]{ÿĞ#hœd×.”­´H‰‚ögº{·‚à¦ĞÑ*¹$íÚÊùŸgOQ1q”ÿŸ›
+»DµåCúá*Û?Ç¯¬‡ì+ÛEú©×ğH9´Ä¼Œœ8oÅìfªVÂñ+±f‰ôJ …¨ÊªÊ2Âç`"ŒNSÉ8ƒï_Vš[Í7½Æª	ğà0<p¨{h´!Iî°İÿ D2@dÔ„Fã*iï×H"óÑ	n»ÜŞ¾ŸÅ^E×&dSæghËú·æÜ"|øKhK¦ß‚vûÕşzifÏ˜ow™6æÕû¼~Rp–Å9HÈ±Wşìq”HÙlW¶éc{¶Ñ¯«æ·Õ“éXu©HZmD`bMîÜ¯`èÚ&¾`zæ%6 ¶Â Œ~4Å@·xƒœØ@X=‘yaKK´q ›8õz•ü­:ó»í]‰aÈS±t§rUøÖ©GHİ7÷—ç~Ä<Öíàİù™PèPß~CV
+”å°C|àÂÚjÑ$’ÿ<ßá:L™BŠ¾êH,rÁóñ’ÃMZ™ï¯Q.z¡]À:gá—íf=”§P5M
+]$ô2[¶Ü0“dÇß`Ñ>ˆótÿêG»SÿB¿=Šl#büàÎÑqØ­8H]=?Jšê_şÆ"]+CğYÕ¨u¤.kÂH^ù¢,0EÀ§MÆ_Ğt,`M‘¡õ+t“ ¹VúUGqı‰¼[Ô‡A1£5/!nË¶.aÀ~&Ìƒäx(ééò(F¬ÁÁ÷lÉBÈñ‡ıniÂ¸ëqëğçgfo²‘%Ä@Q¤ÜIÏâŸöø´÷ê—TŠå$4/i*Z«!–9ó{â¶s"Mpya^Ë»
+¤†&6M>4²«ˆ¨LŞÎâ¦c;´Â•\7iBV2á4#x0JEœÕ<…Uˆ¾„' Œ¿!jŸrâš•:8ÍbZO©Î/Ø®†4lÊ@'ààEEœ
+fùÍÄ@2Ë0Ó¡J*·«åÍQ­m¼Í`h\¹MÂÀèô½¹÷_ó/ªt?SG²/ŞgQÀ5•,¸n`&L¿“`aÜ0×~?³biÈ €Á$ÜÁ­-M©ë2¾:7÷rÕsíTHíbJßD{Ø¦~©:ÛøÌÑP|êşepëì•_|Ty£E\@^‹oq0HÄæpàÅÄ×ë$è°ä'+OYÍåKˆ¨qN<¥ş§¯ÑìÚ8Øù¥¢şÔøåº»[õ¾Q$¦šU›ïóÒTx

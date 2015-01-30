@@ -1,0 +1,56 @@
+Added Component: Designator=C1(6-0805_M)
+Added Component: Designator=P1(HDR1X8)
+Added Component: Designator=P2(HDR1X8)
+Added Component: Designator=U1(ESP07)
+Added Pin To Net: NetName=ADC Pin=P1-2
+Added Pin To Net: NetName=ADC Pin=U1-2
+Added Net: Name=ADC
+Added Pin To Net: NetName=CH_PD Pin=P1-3
+Added Pin To Net: NetName=CH_PD Pin=U1-3
+Added Net: Name=CH_PD
+Added Pin To Net: NetName=GND Pin=C1-1
+Added Pin To Net: NetName=GND Pin=P2-8
+Added Pin To Net: NetName=GND Pin=U1-16
+Added Net: Name=GND
+Added Pin To Net: NetName=GPIO0 Pin=P2-5
+Added Pin To Net: NetName=GPIO0 Pin=U1-13
+Added Net: Name=GPIO0
+Added Pin To Net: NetName=GPIO2 Pin=P2-6
+Added Pin To Net: NetName=GPIO2 Pin=U1-14
+Added Net: Name=GPIO2
+Added Pin To Net: NetName=GPIO4 Pin=P2-3
+Added Pin To Net: NetName=GPIO4 Pin=U1-11
+Added Net: Name=GPIO4
+Added Pin To Net: NetName=GPIO5 Pin=P2-4
+Added Pin To Net: NetName=GPIO5 Pin=U1-12
+Added Net: Name=GPIO5
+Added Pin To Net: NetName=GPIO12 Pin=P1-6
+Added Pin To Net: NetName=GPIO12 Pin=U1-6
+Added Net: Name=GPIO12
+Added Pin To Net: NetName=GPIO13 Pin=P1-7
+Added Pin To Net: NetName=GPIO13 Pin=U1-7
+Added Net: Name=GPIO13
+Added Pin To Net: NetName=GPIO14 Pin=P1-5
+Added Pin To Net: NetName=GPIO14 Pin=U1-5
+Added Net: Name=GPIO14
+Added Pin To Net: NetName=GPIO15 Pin=P2-7
+Added Pin To Net: NetName=GPIO15 Pin=U1-15
+Added Net: Name=GPIO15
+Added Pin To Net: NetName=GPIO16 Pin=P1-4
+Added Pin To Net: NetName=GPIO16 Pin=U1-4
+Added Net: Name=GPIO16
+Added Pin To Net: NetName=REST Pin=P1-1
+Added Pin To Net: NetName=REST Pin=U1-1
+Added Net: Name=REST
+Added Pin To Net: NetName=RX Pin=P2-2
+Added Pin To Net: NetName=RX Pin=U1-10
+Added Net: Name=RX
+Added Pin To Net: NetName=TX Pin=P2-1
+Added Pin To Net: NetName=TX Pin=U1-9
+Added Net: Name=TX
+Added Pin To Net: NetName=VCC Pin=C1-2
+Added Pin To Net: NetName=VCC Pin=P1-8
+Added Pin To Net: NetName=VCC Pin=U1-8
+Added Net: Name=VCC
+Added Class: Name=ESP07_SHIELD
+Added Room: Name=ESP07_SHIELD

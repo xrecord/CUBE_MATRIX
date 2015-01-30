@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=G2 Pin=Q2-1
+Removed Pin From Net: NetName=A2 Pin=Q2-2
+Removed Pin From Net: NetName=VCC Pin=Q2-3
+Removed Pin From Net: NetName=G3 Pin=Q3-1
+Removed Pin From Net: NetName=G4 Pin=Q4-1
+Removed Pin From Net: NetName=VCC Pin=Q4-3
+Removed Pin From Net: NetName=G6 Pin=Q6-1
+Removed Pin From Net: NetName=G7 Pin=Q7-1
+Removed Pin From Net: NetName=G8 Pin=Q8-1
+Added Pin To Net: NetName=G8 Pin=Q2-1
+Added Pin To Net: NetName=G7 Pin=Q3-1
+Added Pin To Net: NetName=G6 Pin=Q4-1
+Added Pin To Net: NetName=G4 Pin=Q6-1
+Added Pin To Net: NetName=G3 Pin=Q7-1
+Added Pin To Net: NetName=G2 Pin=Q8-1
+Added Room: Name=schematic

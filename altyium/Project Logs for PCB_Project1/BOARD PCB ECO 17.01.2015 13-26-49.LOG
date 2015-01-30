@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=MOSI Pin=P4-4
+Added Pin To Net: NetName=Q7S Pin=P4-4
+Added Room: Name=schematic

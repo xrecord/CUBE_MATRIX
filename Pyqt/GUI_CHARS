@@ -1,0 +1,144 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'GUI.ui'
+#
+# Created: Mon Jan 26 18:19:46 2015
+#      by: PyQt4 UI code generator 4.11.3
+#
+# WARNING! All changes made in this file will be lost!
+
+from PyQt4 import QtCore, QtGui
+import GUI
+import sys
+
+try:
+    _fromUtf8 = QtCore.QString.fromUtf8
+except AttributeError:
+    def _fromUtf8(s):
+        return s
+
+try:
+    _encoding = QtGui.QApplication.UnicodeUTF8
+    def _translate(context, text, disambig):
+        return QtGui.QApplication.translate(context, text, disambig, _encoding)
+except AttributeError:
+    def _translate(context, text, disambig):
+        return QtGui.QApplication.translate(context, text, disambig)
+array = [0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF]
+array_ind =[]
+array_value=[]
+<<<<<<< HEAD
+kol = 0
+=======
+>>>>>>> origin/master
+class MyWindowClass(QtGui.QMainWindow, GUI.Ui_MainWindow):
+    def __init__(self, parent=None):
+        super(MyWindowClass,self).__init__(parent)
+        self.setupUi(self)
+        self.connect(self.radioButton_0_0,QtCore.SIGNAL(_fromUtf8("clicked(bool)")),lambda: self.SAVE_STROKE(0, 0))
+        self.connect(self.radioButton_0_1,QtCore.SIGNAL(_fromUtf8("clicked(bool)")),lambda: self.SAVE_STROKE(0, 1))
+        self.connect(self.radioButton_0_2,QtCore.SIGNAL(_fromUtf8("clicked(bool)")),lambda: self.SAVE_STROKE(0, 2))
+        self.connect(self.radioButton_0_3,QtCore.SIGNAL(_fromUtf8("clicked(bool)")),lambda: self.SAVE_STROKE(0, 3))
+        self.connect(self.radioButton_0_4,QtCore.SIGNAL(_fromUtf8("clicked(bool)")),lambda: self.SAVE_STROKE(0, 4))
+        self.connect(self.radioButton_0_5,QtCore.SIGNAL(_fromUtf8("clicked(bool)")),lambda: self.SAVE_STROKE(0, 5))
+        self.connect(self.radioButton_0_6,QtCore.SIGNAL(_fromUtf8("clicked(bool)")),lambda: self.SAVE_STROKE(0, 6))
+        self.connect(self.radioButton_0_7,QtCore.SIGNAL(_fromUtf8("clicked(bool)")),lambda: self.SAVE_STROKE(0, 7))
+        self.connect(self.radioButton_1_0,QtCore.SIGNAL(_fromUtf8("clicked(bool)")),lambda: self.SAVE_STROKE(1, 0))
+        self.connect(self.radioButton_1_1,QtCore.SIGNAL(_fromUtf8("clicked(bool)")),lambda: self.SAVE_STROKE(1, 1))
+        self.connect(self.radioButton_1_2,QtCore.SIGNAL(_fromUtf8("clicked(bool)")),lambda: self.SAVE_STROKE(1, 2))
+        self.connect(self.radioButton_1_3,QtCore.SIGNAL(_fromUtf8("clicked(bool)")),lambda: self.SAVE_STROKE(1, 3))
+        self.connect(self.radioButton_1_4,QtCore.SIGNAL(_fromUtf8("clicked(bool)")),lambda: self.SAVE_STROKE(1, 4))
+        self.connect(self.radioButton_1_5,QtCore.SIGNAL(_fromUtf8("clicked(bool)")),lambda: self.SAVE_STROKE(1, 5))
+        self.connect(self.radioButton_1_6,QtCore.SIGNAL(_fromUtf8("clicked(bool)")),lambda: self.SAVE_STROKE(1, 6))
+        self.connect(self.radioButton_1_7,QtCore.SIGNAL(_fromUtf8("clicked(bool)")),lambda: self.SAVE_STROKE(1, 7))
+        self.connect(self.radioButton_2_0,QtCore.SIGNAL(_fromUtf8("clicked(bool)")),lambda: self.SAVE_STROKE(2, 0))
+        self.connect(self.radioButton_2_1,QtCore.SIGNAL(_fromUtf8("clicked(bool)")),lambda: self.SAVE_STROKE(2, 1))
+        self.connect(self.radioButton_2_2,QtCore.SIGNAL(_fromUtf8("clicked(bool)")),lambda: self.SAVE_STROKE(2, 2))
+        self.connect(self.radioButton_2_3,QtCore.SIGNAL(_fromUtf8("clicked(bool)")),lambda: self.SAVE_STROKE(2, 3))
+        self.connect(self.radioButton_2_4,QtCore.SIGNAL(_fromUtf8("clicked(bool)")),lambda: self.SAVE_STROKE(2, 4))
+        self.connect(self.radioButton_2_5,QtCore.SIGNAL(_fromUtf8("clicked(bool)")),lambda: self.SAVE_STROKE(2, 5))
+        self.connect(self.radioButton_2_6,QtCore.SIGNAL(_fromUtf8("clicked(bool)")),lambda: self.SAVE_STROKE(2, 6))
+        self.connect(self.radioButton_2_7,QtCore.SIGNAL(_fromUtf8("clicked(bool)")),lambda: self.SAVE_STROKE(2, 7))
+        self.connect(self.radioButton_3_0,QtCore.SIGNAL(_fromUtf8("clicked(bool)")),lambda: self.SAVE_STROKE(3, 0))
+        self.connect(self.radioButton_3_1,QtCore.SIGNAL(_fromUtf8("clicked(bool)")),lambda: self.SAVE_STROKE(3, 1))
+        self.connect(self.radioButton_3_2,QtCore.SIGNAL(_fromUtf8("clicked(bool)")),lambda: self.SAVE_STROKE(3, 2))
+        self.connect(self.radioButton_3_3,QtCore.SIGNAL(_fromUtf8("clicked(bool)")),lambda: self.SAVE_STROKE(3, 3))
+        self.connect(self.radioButton_3_4,QtCore.SIGNAL(_fromUtf8("clicked(bool)")),lambda: self.SAVE_STROKE(3, 4))
+        self.connect(self.radioButton_3_5,QtCore.SIGNAL(_fromUtf8("clicked(bool)")),lambda: self.SAVE_STROKE(3, 5))
+        self.connect(self.radioButton_3_6,QtCore.SIGNAL(_fromUtf8("clicked(bool)")),lambda: self.SAVE_STROKE(3, 6))
+        self.connect(self.radioButton_3_7,QtCore.SIGNAL(_fromUtf8("clicked(bool)")),lambda: self.SAVE_STROKE(3, 7))
+        self.connect(self.radioButton_4_0,QtCore.SIGNAL(_fromUtf8("clicked(bool)")),lambda: self.SAVE_STROKE(4, 0))
+        self.connect(self.radioButton_4_1,QtCore.SIGNAL(_fromUtf8("clicked(bool)")),lambda: self.SAVE_STROKE(4, 1))
+        self.connect(self.radioButton_4_2,QtCore.SIGNAL(_fromUtf8("clicked(bool)")),lambda: self.SAVE_STROKE(4, 2))
+        self.connect(self.radioButton_4_3,QtCore.SIGNAL(_fromUtf8("clicked(bool)")),lambda: self.SAVE_STROKE(4, 3))
+        self.connect(self.radioButton_4_4,QtCore.SIGNAL(_fromUtf8("clicked(bool)")),lambda: self.SAVE_STROKE(4, 4))
+        self.connect(self.radioButton_4_5,QtCore.SIGNAL(_fromUtf8("clicked(bool)")),lambda: self.SAVE_STROKE(4, 5))
+        self.connect(self.radioButton_4_6,QtCore.SIGNAL(_fromUtf8("clicked(bool)")),lambda: self.SAVE_STROKE(4, 6))
+        self.connect(self.radioButton_4_7,QtCore.SIGNAL(_fromUtf8("clicked(bool)")),lambda: self.SAVE_STROKE(4, 7))
+        self.connect(self.radioButton_5_0,QtCore.SIGNAL(_fromUtf8("clicked(bool)")),lambda: self.SAVE_STROKE(5, 0))
+        self.connect(self.radioButton_5_1,QtCore.SIGNAL(_fromUtf8("clicked(bool)")),lambda: self.SAVE_STROKE(5, 1))
+        self.connect(self.radioButton_5_2,QtCore.SIGNAL(_fromUtf8("clicked(bool)")),lambda: self.SAVE_STROKE(5, 2))
+        self.connect(self.radioButton_5_3,QtCore.SIGNAL(_fromUtf8("clicked(bool)")),lambda: self.SAVE_STROKE(5, 3))
+        self.connect(self.radioButton_5_4,QtCore.SIGNAL(_fromUtf8("clicked(bool)")),lambda: self.SAVE_STROKE(5, 4))
+        self.connect(self.radioButton_5_5,QtCore.SIGNAL(_fromUtf8("clicked(bool)")),lambda: self.SAVE_STROKE(5, 5))
+        self.connect(self.radioButton_5_6,QtCore.SIGNAL(_fromUtf8("clicked(bool)")),lambda: self.SAVE_STROKE(5, 6))
+        self.connect(self.radioButton_5_7,QtCore.SIGNAL(_fromUtf8("clicked(bool)")),lambda: self.SAVE_STROKE(5, 7))
+        self.connect(self.radioButton_6_0,QtCore.SIGNAL(_fromUtf8("clicked(bool)")),lambda: self.SAVE_STROKE(6, 0))
+        self.connect(self.radioButton_6_1,QtCore.SIGNAL(_fromUtf8("clicked(bool)")),lambda: self.SAVE_STROKE(6, 1))
+        self.connect(self.radioButton_6_2,QtCore.SIGNAL(_fromUtf8("clicked(bool)")),lambda: self.SAVE_STROKE(6, 2))
+        self.connect(self.radioButton_6_3,QtCore.SIGNAL(_fromUtf8("clicked(bool)")),lambda: self.SAVE_STROKE(6, 3))
+        self.connect(self.radioButton_6_4,QtCore.SIGNAL(_fromUtf8("clicked(bool)")),lambda: self.SAVE_STROKE(6, 4))
+        self.connect(self.radioButton_6_5,QtCore.SIGNAL(_fromUtf8("clicked(bool)")),lambda: self.SAVE_STROKE(6, 5))
+        self.connect(self.radioButton_6_6,QtCore.SIGNAL(_fromUtf8("clicked(bool)")),lambda: self.SAVE_STROKE(6, 6))
+        self.connect(self.radioButton_6_7,QtCore.SIGNAL(_fromUtf8("clicked(bool)")),lambda: self.SAVE_STROKE(6, 7))
+        self.connect(self.radioButton_7_0,QtCore.SIGNAL(_fromUtf8("clicked(bool)")),lambda: self.SAVE_STROKE(7, 0))
+        self.connect(self.radioButton_7_1,QtCore.SIGNAL(_fromUtf8("clicked(bool)")),lambda: self.SAVE_STROKE(7, 1))
+        self.connect(self.radioButton_7_2,QtCore.SIGNAL(_fromUtf8("clicked(bool)")),lambda: self.SAVE_STROKE(7, 2))
+        self.connect(self.radioButton_7_3,QtCore.SIGNAL(_fromUtf8("clicked(bool)")),lambda: self.SAVE_STROKE(7, 3))
+        self.connect(self.radioButton_7_4,QtCore.SIGNAL(_fromUtf8("clicked(bool)")),lambda: self.SAVE_STROKE(7, 4))
+        self.connect(self.radioButton_7_5,QtCore.SIGNAL(_fromUtf8("clicked(bool)")),lambda: self.SAVE_STROKE(7, 5))
+        self.connect(self.radioButton_7_6,QtCore.SIGNAL(_fromUtf8("clicked(bool)")),lambda: self.SAVE_STROKE(7, 6))
+        self.connect(self.radioButton_7_7,QtCore.SIGNAL(_fromUtf8("clicked(bool)")),lambda: self.SAVE_STROKE(7, 7))
+        self.connect(self.pushButton_2,QtCore.SIGNAL(_fromUtf8("clicked()")),self.BACK)
+        self.connect(self.pushButton,QtCore.SIGNAL(_fromUtf8("clicked()")), self.PRINT_ARRAY)
+    def BACK(self):
+        array_ind.pop()
+        array_value.pop()
+    def SAVE_STROKE(self,i,j):
+        #self.setDisabled(1)
+        if j == 0:
+            mask=0b01111111
+        elif j ==1:
+            mask=0b10111111
+        elif j ==2:
+            mask=0b11011111
+        elif j ==3:
+            mask=0b11101111
+        elif j ==4:
+            mask=0b11110111
+        elif j ==5:
+            mask=0b11111011
+        elif j ==6:
+            mask=0b11111101
+        elif j ==7:
+            mask=0b11111110
+        array[i]=(array[i]&mask)
+        array_ind.append(i)
+        array_value.append(array[i])
+<<<<<<< HEAD
+        global kol
+        kol=kol+1
+    def PRINT_ARRAY(self):
+        global kol
+        print ('2'+','+str(kol+1)+',')
+=======
+    def PRINT_ARRAY(self):
+>>>>>>> origin/master
+        for i in range (len(array_ind)):
+           print (str(array_ind[i])+','+str(array_value[i])+',')
+
+
+app = QtGui.QApplication(sys.argv)
+window = MyWindowClass()
+window.show()
+sys.exit(app.exec_())
