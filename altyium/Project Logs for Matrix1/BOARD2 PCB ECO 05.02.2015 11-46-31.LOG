@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=SS Pin=P3-3
+Removed Pin From Net: NetName=LT Pin=P3-4
+Removed Pin From Net: NetName=EN Pin=P3-5
+Removed Pin From Net: NetName=DIN Pin=P3-6
+Added Pin To Net: NetName=DIN Pin=P3-3
+Added Pin To Net: NetName=EN Pin=P3-4
+Added Pin To Net: NetName=LT Pin=P3-5
+Added Pin To Net: NetName=SS Pin=P3-6
+Added Member To Class: ClassName=schematic2 Member=Component C1 Cap
+Added Member To Class: ClassName=schematic2 Member=Component R24 Res2
+Added Room: Name=schematic2

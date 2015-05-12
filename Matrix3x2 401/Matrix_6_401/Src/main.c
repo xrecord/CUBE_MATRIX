@@ -1,11 +1,7 @@
 /**
   ******************************************************************************
   * File Name          : main.c
-<<<<<<< HEAD
   * Date               : 30/01/2015 15:15:45
-=======
-  * Date               : 28/01/2015 20:31:30
->>>>>>> origin/master
   * Description        : Main program body
   ******************************************************************************
   *
@@ -46,57 +42,19 @@
 /* Private variables ---------------------------------------------------------*/
 SPI_HandleTypeDef hspi1;
 
-<<<<<<< HEAD
 TIM_HandleTypeDef htim9;
-=======
->>>>>>> origin/master
 TIM_HandleTypeDef htim10;
 TIM_HandleTypeDef htim11;
 
 /* USER CODE BEGIN PV */
+static __IO uint32_t TimingDelay;  //home work
+
 char data_An[8] = {0x7F,0xBF,0xDF,0xEF,0xF7,0xFB,0xFD,0xFE};
-<<<<<<< HEAD
 char data_Gr[8]; 
 char data_Rd[8];
 char data_Bl[8];
 char char_Play[30][2];
 uint8_t pData[24];
-=======
-char data_Gr[8] = {0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF};
-char data_Rd[8] = {0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF};
-char data_Bl[8] = {0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF};
-
-char char_Play[][2] = {
-  2,21,
-  0,239,
-  1,223,
-  2,223,
-  3,191,
-  4,191,
-  5,191,
-  6,191,
-  7,191,
-  0,231,
-  1,219,
-  2,219,
-  3,189,
-  4,189,
-  5,189,
-  6,189,
-  7,189,
-  4,157,
-  4,141,
-  4,133,
-  4,129
-}; 
-int setcolour = WHITE;
-int countLine = sizeof(data_An)-1;
-int counterChanges = 0;
-int counterLetters = 2;
-short countColour = 0;
-uint8_t pData[24];
-
->>>>>>> origin/master
 char bufferData [8][4];
 
 /* USER CODE END PV */
@@ -105,17 +63,20 @@ char bufferData [8][4];
 void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
 static void MX_SPI1_Init(void);
-<<<<<<< HEAD
 static void MX_TIM9_Init(void);
-=======
->>>>>>> origin/master
 static void MX_TIM10_Init(void);
 static void MX_TIM11_Init(void);
 
 /* USER CODE BEGIN PFP */
+void Delay_ms(uint32_t ms)// HOME WORK
+{
+  volatile uint32_t nCount;// HOME WORK
+  HAL_RCC_GetSysClockFreq ();// HOME WORK
+  nCount = (HAL_RCC_GetHCLKFreq() /10000) * ms;// HOME WORK
+  for (; nCount !=0; nCount--);// HOME WORK
+}
 
 /*Инициализация функции формирования посылки*/
-<<<<<<< HEAD
 void create_pData(int cntLn)
 {
   pData[0] = bufferData[cntLn][0];
@@ -142,69 +103,25 @@ void create_pData(int cntLn)
   pData[21] = bufferData[cntLn][1];
   pData[22] = bufferData[cntLn][2];
   pData[23] = bufferData[cntLn][3];
-=======
-void create_pData(int cnL)
-{
-  pData[0] = bufferData[cnL][0];
-  pData[1] = bufferData[cnL][1];
-  pData[2] = bufferData[cnL][2];
-  pData[3] = bufferData[cnL][3];
-  pData[4] = bufferData[cnL][0];
-  pData[5] = bufferData[cnL][1];
-  pData[6] = bufferData[cnL][2];
-  pData[7] = bufferData[cnL][3];
-  pData[8] = bufferData[cnL][0];
-  pData[9] = bufferData[cnL][1];
-  pData[10] = bufferData[cnL][2];
-  pData[11] = bufferData[cnL][3];
-  pData[12] = bufferData[cnL][0];
-  pData[13] = bufferData[cnL][1];
-  pData[14] = bufferData[cnL][2];
-  pData[15] = bufferData[cnL][3];
-  pData[16] = bufferData[cnL][0];
-  pData[17] = bufferData[cnL][1];
-  pData[18] = bufferData[cnL][2];
-  pData[19] = bufferData[cnL][3];
-  pData[20] = bufferData[cnL][0];
-  pData[21] = bufferData[cnL][1];
-  pData[22] = bufferData[cnL][2];
-  pData[23] = bufferData[cnL][3];
->>>>>>> origin/master
 }
 
 /*Инициализация функции формирования масива изображения*/
 void create_bufferData(void)
 {
-<<<<<<< HEAD
   for (int j=0; j <=7 ; j++)
   {
     bufferData[j][0] = data_An[j];
     bufferData[j][1] = data_Gr[j];
     bufferData[j][2] = data_Rd[j];
     bufferData[j][3] = data_Bl[j];
-=======
-  for (int i=0; i <=7 ; i++)
-  {
-    bufferData[i][0] = data_An[i];
-    bufferData[i][1] = data_Gr[i];
-    bufferData[i][2] = data_Rd[i];
-    bufferData[i][3] = data_Bl[i];
->>>>>>> origin/master
   }
  }
 
 /*Инициализация функции отправки данных*/
-<<<<<<< HEAD
 void send_Data(int cntLn)
 {
   create_bufferData(); 
   create_pData(cntLn);
-=======
-void send_Data(void)
-{
-  create_bufferData();
-  create_pData(countLine);
->>>>>>> origin/master
   HAL_SPI_Transmit(&hspi1, pData, 24, 1);
   HAL_GPIO_WritePin(GPIOA, GPIO_PIN_6,GPIO_PIN_SET);
   HAL_GPIO_WritePin(GPIOA, GPIO_PIN_6,GPIO_PIN_RESET);
@@ -222,85 +139,48 @@ void zero_matrix(void)
 }
 
 /*Инициализация функци отрисовки буквы нужного цвета*/
-<<<<<<< HEAD
 void writte_Char(int colour, int cntCh)
-=======
-void writte_Char(int colour)
->>>>>>> origin/master
 {
 switch(colour)
     {
     case GREEN:
       {
-<<<<<<< HEAD
         data_Gr[char_Play[cntCh+1][0]] = char_Play[cntCh+1][1];
-=======
-        data_Gr[char_Play[counterChanges][0]] = char_Play[counterChanges][1];
->>>>>>> origin/master
         break;
       }
     case RED:
       {
-<<<<<<< HEAD
         data_Rd[char_Play[cntCh+1][0]] = char_Play[cntCh+1][1];
-=======
-        data_Rd[char_Play[counterChanges][0]] = char_Play[counterChanges][1];
->>>>>>> origin/master
         break;
       }
     case BLUE:
       {
-<<<<<<< HEAD
         data_Bl[char_Play[cntCh+1][0]] = char_Play[cntCh+1][1];
-=======
-        data_Bl[char_Play[counterChanges][0]] = char_Play[counterChanges][1];
->>>>>>> origin/master
         break;
       }
     case YELLOW:
       {
-<<<<<<< HEAD
         data_Gr[char_Play[cntCh+1][0]] = char_Play[cntCh+1][1];
         data_Rd[char_Play[cntCh+1][0]] = char_Play[cntCh+1][1];
-=======
-        data_Gr[char_Play[counterChanges][0]] = char_Play[counterChanges][1];
-        data_Rd[char_Play[counterChanges][0]] = char_Play[counterChanges][1];
->>>>>>> origin/master
         break;
       }
     case MAGENTA:
       {
-<<<<<<< HEAD
         data_Rd[char_Play[cntCh+1][0]] = char_Play[cntCh+1][1];
         data_Bl[char_Play[cntCh+1][0]] = char_Play[cntCh+1][1];
-=======
-        data_Rd[char_Play[counterChanges][0]] = char_Play[counterChanges][1];
-        data_Bl[char_Play[counterChanges][0]] = char_Play[counterChanges][1];
->>>>>>> origin/master
         break;
       }
     case CYAN:
       {
-<<<<<<< HEAD
         data_Gr[char_Play[cntCh+1][0]] = char_Play[cntCh+1][1];
         data_Bl[char_Play[cntCh+1][0]] = char_Play[cntCh+1][1];
-=======
-        data_Gr[char_Play[counterChanges][0]] = char_Play[counterChanges][1];
-        data_Bl[char_Play[counterChanges][0]] = char_Play[counterChanges][1];
->>>>>>> origin/master
         break;
       }
     case WHITE:
       {
-<<<<<<< HEAD
         data_Gr[char_Play[cntCh+1][0]] = char_Play[cntCh+1][1];
         data_Bl[char_Play[cntCh+1][0]] = char_Play[cntCh+1][1];
         data_Rd[char_Play[cntCh+1][0]] = char_Play[cntCh+1][1];
-=======
-        data_Gr[char_Play[counterChanges+1][0]] = char_Play[counterChanges+1][1];
-        data_Bl[char_Play[counterChanges+1][0]] = char_Play[counterChanges+1][1];
-        data_Rd[char_Play[counterChanges+1][0]] = char_Play[counterChanges+1][1];
->>>>>>> origin/master
         break;
       }
     default:
@@ -321,87 +201,49 @@ void set_Char (char *letter, int i, int j)
 }
 
 /*????Инициализация функции изменения цвета*/
-<<<<<<< HEAD
 /*void changecolour(int cntC)
 {  
   switch(cntC)
-=======
-void changecolour(void)
-{  
-  switch(countColour)
->>>>>>> origin/master
   {
   case 0:
     {
       setcolour = GREEN;
-<<<<<<< HEAD
-=======
-      countColour++;
->>>>>>> origin/master
       break;
     }
   case 1:
     {
       setcolour = RED;
-<<<<<<< HEAD
-=======
-      countColour++;
->>>>>>> origin/master
       break;
     }
   case 2:
     {
       setcolour = BLUE;
-<<<<<<< HEAD
-=======
-      countColour++;
->>>>>>> origin/master
       break;
     }
   case 3:
     {
       setcolour = YELLOW;
-<<<<<<< HEAD
-=======
-      countColour++;
->>>>>>> origin/master
       break;
     }
   case 4:
     {
       setcolour = MAGENTA;
-<<<<<<< HEAD
-=======
-      countColour++;
->>>>>>> origin/master
       break;
     }
   case 5:
     {
       setcolour = CYAN;
-<<<<<<< HEAD
-=======
-      countColour++;
->>>>>>> origin/master
       break;
     }
   case 6:
     {
       setcolour = WHITE;
-<<<<<<< HEAD
-=======
-      countColour++;
->>>>>>> origin/master
       break;
     }
   default:
     __NOP();
   }
-<<<<<<< HEAD
 }*/
-=======
-}
->>>>>>> origin/master
 /* USER CODE END PFP */
 
 /* USER CODE BEGIN 0 */
@@ -426,18 +268,12 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   MX_SPI1_Init();
-<<<<<<< HEAD
   MX_TIM9_Init();
-=======
->>>>>>> origin/master
   MX_TIM10_Init();
   MX_TIM11_Init();
 
   /* USER CODE BEGIN 2 */
-<<<<<<< HEAD
   HAL_TIM_Base_Start_IT(&htim9);
-=======
->>>>>>> origin/master
   HAL_TIM_Base_Start_IT(&htim10);
   HAL_TIM_Base_Start_IT(&htim11);
   /* USER CODE END 2 */
@@ -446,7 +282,10 @@ int main(void)
   /* Infinite loop */
   while (1)
   {
-
+GPIOD->BSRRL |= 0xF000;// HOME WORK
+Delay_ms (1000);// HOME WORK
+GPIOD->BSRRH |= 0xF000; // HOME WORK
+Delay_ms (1000);// HOME WORK
   }
   /* USER CODE END 3 */
 
@@ -502,7 +341,6 @@ void MX_SPI1_Init(void)
 
 }
 
-<<<<<<< HEAD
 /* TIM9 init function */
 void MX_TIM9_Init(void)
 {
@@ -521,8 +359,6 @@ void MX_TIM9_Init(void)
 
 }
 
-=======
->>>>>>> origin/master
 /* TIM10 init function */
 void MX_TIM10_Init(void)
 {
@@ -697,17 +533,12 @@ void MX_GPIO_Init(void)
   HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
 
   /* EXTI interrupt init*/
-<<<<<<< HEAD
   HAL_NVIC_SetPriority(EXTI0_IRQn, 1, 0);
-=======
-  HAL_NVIC_SetPriority(EXTI0_IRQn, 2, 0);
->>>>>>> origin/master
   HAL_NVIC_EnableIRQ(EXTI0_IRQn);
 
 }
 
 /* USER CODE BEGIN 4 */
-<<<<<<< HEAD
 
 int counterChanges = 0;
 int countLine = 7;
@@ -715,44 +546,29 @@ int counterLetters = 0;
 int setcolour = 0;
 
 
-=======
->>>>>>> origin/master
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 { 
   if (htim == &htim10)
   {
     if (countLine < 0)
     {
-<<<<<<< HEAD
       countLine=7;
     }
     send_Data(countLine);
-=======
-      countLine=(sizeof(data_An)-1);
-    }
-    send_Data();
->>>>>>> origin/master
     countLine--;
   }
   else if (htim == &htim11)
   {
-<<<<<<< HEAD
     /*char *y = lEtters[counterLetters-1];*/
     if (setcolour >= 7)
   {
     setcolour = 0;
   }
     if(counterChanges > (((char_Play[0][1])-1)+24))
-=======
-    char *y = lEtters[counterLetters-1];
-    
-    if(counterChanges > (((y[1])-1)+24))
->>>>>>> origin/master
     {
         zero_matrix();
         counterChanges = 0;
     }
-<<<<<<< HEAD
     if (counterChanges < ((char_Play[0][1])-1))
     {
       writte_Char(setcolour, counterChanges);
@@ -761,7 +577,7 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
   }
   else if (htim == &htim9)
   {
-    if (counterLetters == 26) /*3 - количесвто елементов в масиве букв*/
+    if (counterLetters == 26) /*26 - количесвто елементов в масиве букв*/
     {
       counterLetters = 0;
     }
@@ -773,31 +589,11 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
     counterLetters++;
   
   }
-=======
-    if (counterChanges < ((y[1])-1))
-    {
-      writte_Char(setcolour);
-    }
-      counterChanges++; 
-  }
->>>>>>> origin/master
 }
 
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin0)
 { 
-<<<<<<< HEAD
   
-=======
-  if (counterLetters == 4)
-  {
-  counterLetters = 1;
-  }
-  char *p = lEtters[counterLetters];
-  set_Char(p, (int)p[0], (int)p[1]);
-  zero_matrix();
-  counterChanges = 0;
-  counterLetters++;
->>>>>>> origin/master
 }
 /* USER CODE END 4 */
 

@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=USB_DM Pin=P1-1
+Removed Pin From Net: NetName=USB_DP Pin=P1-2
+Added Pin To Net: NetName=USB_DP Pin=P1-1
+Added Pin To Net: NetName=USB_DM Pin=P1-2
+Added Room: Name=Power_board

@@ -1,0 +1,19 @@
+Removed Pin From Net: NetName=VCC_USB Pin=D1-1
+Removed Pin From Net: NetName=NetC1_2 Pin=D1-2
+Removed Pin From Net: NetName=USB_DP Pin=P1-1
+Removed Pin From Net: NetName=USB_DM Pin=P1-2
+Removed Pin From Net: NetName=GND Pin=P1-3
+Removed Pin From Net: NetName=BAT + Pin=P1-4
+Removed Pin From Net: NetName=VDD Pin=P1-5
+Removed Member From Class: ClassName=Power_board Member=P1
+Added Component: Designator=P?(HDR1X6H)
+Added Pin To Net: NetName=NetC1_2 Pin=D1-1
+Added Pin To Net: NetName=VCC_USB Pin=D1-2
+Added Pin To Net: NetName=USB_DP Pin=P?-1
+Added Pin To Net: NetName=USB_DM Pin=P?-2
+Added Pin To Net: NetName=GND Pin=P?-3
+Added Pin To Net: NetName=BAT + Pin=P?-4
+Added Pin To Net: NetName=VDD Pin=P?-5
+Added Pin To Net: NetName=VCC_USB Pin=P?-6
+Added Member To Class: ClassName=Power_board Member=Component P? Header 6H
+Added Room: Name=Power_board

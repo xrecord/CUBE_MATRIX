@@ -1,11 +1,7 @@
 /**
   ******************************************************************************
   * File Name          : stm32f4xx_hal_msp.c
-<<<<<<< HEAD
   * Date               : 30/01/2015 15:15:45
-=======
-  * Date               : 28/01/2015 20:31:30
->>>>>>> origin/master
   * Description        : This file provides code for the MSP Initialization 
   *                      and de-Initialization codes.
   ******************************************************************************
@@ -120,7 +116,6 @@ void HAL_SPI_MspDeInit(SPI_HandleTypeDef* hspi)
 void HAL_TIM_Base_MspInit(TIM_HandleTypeDef* htim_base)
 {
 
-<<<<<<< HEAD
   if(htim_base->Instance==TIM9)
   {
   /* USER CODE BEGIN TIM9_MspInit 0 */
@@ -136,9 +131,6 @@ void HAL_TIM_Base_MspInit(TIM_HandleTypeDef* htim_base)
   /* USER CODE END TIM9_MspInit 1 */
   }
   else if(htim_base->Instance==TIM10)
-=======
-  if(htim_base->Instance==TIM10)
->>>>>>> origin/master
   {
   /* USER CODE BEGIN TIM10_MspInit 0 */
 
@@ -160,11 +152,7 @@ void HAL_TIM_Base_MspInit(TIM_HandleTypeDef* htim_base)
     /* Peripheral clock enable */
     __TIM11_CLK_ENABLE();
   /* System interrupt init*/
-<<<<<<< HEAD
     HAL_NVIC_SetPriority(TIM1_TRG_COM_TIM11_IRQn, 2, 0);
-=======
-    HAL_NVIC_SetPriority(TIM1_TRG_COM_TIM11_IRQn, 1, 0);
->>>>>>> origin/master
     HAL_NVIC_EnableIRQ(TIM1_TRG_COM_TIM11_IRQn);
   /* USER CODE BEGIN TIM11_MspInit 1 */
 
@@ -176,7 +164,6 @@ void HAL_TIM_Base_MspInit(TIM_HandleTypeDef* htim_base)
 void HAL_TIM_Base_MspDeInit(TIM_HandleTypeDef* htim_base)
 {
 
-<<<<<<< HEAD
   if(htim_base->Instance==TIM9)
   {
   /* USER CODE BEGIN TIM9_MspDeInit 0 */
@@ -193,9 +180,6 @@ void HAL_TIM_Base_MspDeInit(TIM_HandleTypeDef* htim_base)
   /* USER CODE END TIM9_MspDeInit 1 */
   }
   else if(htim_base->Instance==TIM10)
-=======
-  if(htim_base->Instance==TIM10)
->>>>>>> origin/master
   {
   /* USER CODE BEGIN TIM10_MspDeInit 0 */
 

@@ -1,0 +1,4 @@
+Change Component Designator: OldDesignator=R24 NewDesignator=R25
+Added Pin To Net: NetName=EN Pin=R25-1
+Added Member To Class: ClassName=schematic2 Member=Component R25 Res2
+Added Room: Name=schematic2

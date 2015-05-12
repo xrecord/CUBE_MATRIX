@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=VDD Pin=P1-1
+Removed Pin From Net: NetName=BAT + Pin=P1-2
+Removed Pin From Net: NetName=USB_DP Pin=P1-3
+Removed Pin From Net: NetName=USB_DM Pin=P1-4
+Removed Pin From Net: NetName=GND Pin=P1-5
+Added Pin To Net: NetName=USB_DM Pin=P1-1
+Added Pin To Net: NetName=USB_DP Pin=P1-2
+Added Pin To Net: NetName=GND Pin=P1-3
+Added Pin To Net: NetName=BAT + Pin=P1-4
+Added Pin To Net: NetName=VDD Pin=P1-5
+Added Member To Class: ClassName=Power_board Member=Component C6 1uF
+Added Member To Class: ClassName=Power_board Member=Component U4 MCP1700T-3302E/TT
+Added Room: Name=Power_board

@@ -1,0 +1,11 @@
+Output: Simple BOM
+Type  : SimpleBOM
+From  : Variant [[No Variations]] of Project [Matrix1.PrjPcb]
+   Generated File[BOARD2.BOM]
+   Generated File[BOARD2.CSV]
+
+
+Files Generated   : 2
+Documents Printed : 0
+
+Finished Output Generation At 15:46:45 On 12.03.2015

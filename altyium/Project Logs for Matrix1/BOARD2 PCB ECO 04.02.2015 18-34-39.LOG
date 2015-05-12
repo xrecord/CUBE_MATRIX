@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=EN Pin=R24-1
+Added Pin To Net: NetName=DOUT Pin=P3-2
+Added Pin To Net: NetName=EN Pin=R24-1
+Added Pin To Net: NetName=NetR24_1 Pin=R24-1
+Added Room: Name=schematic2

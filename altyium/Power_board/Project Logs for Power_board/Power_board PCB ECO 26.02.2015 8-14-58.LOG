@@ -1,0 +1,15 @@
+Added Component: Designator=D1(ONSC-SOD-123-2-425-04_V)
+Added Component: Designator=D2(ONSC-SOD-123-2-425-04_V)
+Added Component: Designator=U9(SOT-23-OT5_M)
+Added Pin To Net: NetName=VCC_USB Pin=D1-1
+Added Pin To Net: NetName=NetC1_2 Pin=D1-2
+Added Pin To Net: NetName=NetC13_2 Pin=D2-1
+Added Pin To Net: NetName=VCC_USB Pin=D2-2
+Added Pin To Net: NetName=GND Pin=U9-2
+Added Pin To Net: NetName=BAT + Pin=U9-3
+Added Pin To Net: NetName=NetC13_2 Pin=U9-4
+Added Pin To Net: NetName=NetR6_2 Pin=U9-5
+Added Member To Class: ClassName=Power_board Member=Component D1 MBR0520LT1G
+Added Member To Class: ClassName=Power_board Member=Component D2 MBR0520LT1G
+Added Member To Class: ClassName=Power_board Member=Component U9 MCP73831T-2ATI/OT
+Added Room: Name=Power_board

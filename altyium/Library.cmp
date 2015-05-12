@@ -1,0 +1,28 @@
+Component Name : 74HC595
+
+Part Count : 2
+
+Part : U?
+     Pins - (Normal) : 0
+          Hidden Pins : 
+
+Part : U?
+     Pins - (Normal) : 16
+          Q1             1              Output
+          Q2             2              Output
+          Q3             3              Output
+          Q4             4              Output
+          Q5             5              Output
+          Q6             6              Output
+          Q7             7              Output
+          GND            8              Power
+          VCC            16             Power
+          Q0             15             Output
+          DS             14             Input
+          O\E\           13             Input
+          STCP           12             Input
+          SHCP           11             Input
+          M\R\           10             Input
+          Q7S            9              Output
+          Hidden Pins : 
+

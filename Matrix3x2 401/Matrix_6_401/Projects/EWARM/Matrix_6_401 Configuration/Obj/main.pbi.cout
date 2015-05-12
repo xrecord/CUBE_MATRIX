@@ -1,14 +1,14 @@
-"D:\REPOSITORY\CUBE_MATRIX\CUBE_MATRIX\Matrix3x2 401\Matrix_6_401\Src\main.c"
+"D:\REPOSITORY\GIT\cube_matrix\Matrix3x2 401\Matrix_6_401\Src\main.c"
 -std=c99
 -ferror-limit=100
 -I
-D:\REPOSITORY\CUBE_MATRIX\CUBE_MATRIX\Matrix3x2 401\Matrix_6_401\Projects\EWARM\..\..\Inc
+D:\REPOSITORY\GIT\cube_matrix\Matrix3x2 401\Matrix_6_401\Projects\EWARM\..\..\Inc
 -I
-D:\REPOSITORY\CUBE_MATRIX\CUBE_MATRIX\Matrix3x2 401\Matrix_6_401\Projects\EWARM\..\..\Drivers\STM32F4xx_HAL_Driver\Inc
+D:\REPOSITORY\GIT\cube_matrix\Matrix3x2 401\Matrix_6_401\Projects\EWARM\..\..\Drivers\STM32F4xx_HAL_Driver\Inc
 -I
-D:\REPOSITORY\CUBE_MATRIX\CUBE_MATRIX\Matrix3x2 401\Matrix_6_401\Projects\EWARM\..\..\Drivers\CMSIS\Include
+D:\REPOSITORY\GIT\cube_matrix\Matrix3x2 401\Matrix_6_401\Projects\EWARM\..\..\Drivers\CMSIS\Include
 -I
-D:\REPOSITORY\CUBE_MATRIX\CUBE_MATRIX\Matrix3x2 401\Matrix_6_401\Projects\EWARM\..\..\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+D:\REPOSITORY\GIT\cube_matrix\Matrix3x2 401\Matrix_6_401\Projects\EWARM\..\..\Drivers\CMSIS\Device\ST\STM32F4xx\Include
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\arm\CMSIS\Include
 -I
@@ -16,13 +16,13 @@ C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\arm\inc
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\arm\inc\c
 -I
-D:\REPOSITORY\CUBE_MATRIX\CUBE_MATRIX\Matrix3x2 401\Matrix_6_401\Inc
+D:\REPOSITORY\GIT\cube_matrix\Matrix3x2 401\Matrix_6_401\Inc
 -I
-D:\REPOSITORY\CUBE_MATRIX\CUBE_MATRIX\Matrix3x2 401\Matrix_6_401\Drivers\STM32F4xx_HAL_Driver\Inc
+D:\REPOSITORY\GIT\cube_matrix\Matrix3x2 401\Matrix_6_401\Drivers\STM32F4xx_HAL_Driver\Inc
 -I
-D:\REPOSITORY\CUBE_MATRIX\CUBE_MATRIX\Matrix3x2 401\Matrix_6_401\Drivers\CMSIS\Include
+D:\REPOSITORY\GIT\cube_matrix\Matrix3x2 401\Matrix_6_401\Drivers\CMSIS\Include
 -I
-D:\REPOSITORY\CUBE_MATRIX\CUBE_MATRIX\Matrix3x2 401\Matrix_6_401\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+D:\REPOSITORY\GIT\cube_matrix\Matrix3x2 401\Matrix_6_401\Drivers\CMSIS\Device\ST\STM32F4xx\Include
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\arm\CMSIS\Include
 -DUSE_HAL_DRIVER=1
@@ -229,13 +229,8 @@ C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\arm\CMSIS\Include
 -D__HAS_LOCATED_DECLARATION__=1
 -D__HAS_LOCATED_WITH_INIT__=1
 -D__IAR_COMPILERBASE__=593924
-<<<<<<< HEAD
--D__DATE__="Jan 30 2015"
--D__TIME__="15:27:26"
-=======
--D__DATE__="Jan 28 2015"
--D__TIME__="20:32:16"
->>>>>>> origin/master
+-D__DATE__="Feb 19 2015"
+-D__TIME__="14:46:13"
 -D__STDC__=1
 -D__STDC_VERSION__=199901L
 -D__STDC_HOSTED__=1

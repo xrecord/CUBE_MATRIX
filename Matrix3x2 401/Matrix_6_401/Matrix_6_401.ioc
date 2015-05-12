@@ -1,26 +1,16 @@
 #MicroXplorer Configuration settings - do not modify
-<<<<<<< HEAD
-#Fri Jan 30 15:27:38 EET 2015
-=======
-#Wed Jan 28 20:31:30 EET 2015
->>>>>>> origin/master
-File.Version=4
+#Fri Feb 27 23:08:56 EET 2015
+File.Version=5
 KeepUserPlacement=true
 Mcu.Family=STM32F4
 Mcu.IP0=NVIC
 Mcu.IP1=RCC
 Mcu.IP2=SPI1
 Mcu.IP3=SYS
-<<<<<<< HEAD
 Mcu.IP4=TIM9
 Mcu.IP5=TIM10
 Mcu.IP6=TIM11
 Mcu.IPNb=7
-=======
-Mcu.IP4=TIM10
-Mcu.IP5=TIM11
-Mcu.IPNb=6
->>>>>>> origin/master
 Mcu.Name=STM32F401V(B-C-D-E)Tx
 Mcu.Package=LQFP100
 Mcu.Pin0=PE2
@@ -54,38 +44,24 @@ Mcu.Pin33=PB3
 Mcu.Pin34=PB6
 Mcu.Pin35=PB9
 Mcu.Pin36=PE1
-<<<<<<< HEAD
 Mcu.Pin37=VP_TIM9_VS_ClockSourceINT
 Mcu.Pin38=VP_TIM10_VS_ClockSourceINT
 Mcu.Pin39=VP_TIM11_VS_ClockSourceINT
-=======
-Mcu.Pin37=VP_TIM10_VS_ClockSourceINT
-Mcu.Pin38=VP_TIM11_VS_ClockSourceINT
->>>>>>> origin/master
 Mcu.Pin4=PC14-OSC32_IN
 Mcu.Pin5=PC15-OSC32_OUT
 Mcu.Pin6=PH0 - OSC_IN
 Mcu.Pin7=PH1 - OSC_OUT
 Mcu.Pin8=PC0
 Mcu.Pin9=PC3
-<<<<<<< HEAD
 Mcu.PinsNb=40
 Mcu.UserName=STM32F401VCTx
 MxCube.Version=4.5.0
+MxDb.Version=DB.4.0.50
 NVIC.EXTI0_IRQn=true\:1\:0\:true
 NVIC.PriorityGroup=NVIC_PRIORITYGROUP_4
 NVIC.SysTick_IRQn=true\:0\:0\:true
 NVIC.TIM1_BRK_TIM9_IRQn=true\:1\:0\:true
 NVIC.TIM1_TRG_COM_TIM11_IRQn=true\:2\:0\:true
-=======
-Mcu.PinsNb=39
-Mcu.UserName=STM32F401VCTx
-MxCube.Version=4.5.0
-NVIC.EXTI0_IRQn=true\:2\:0\:true
-NVIC.PriorityGroup=NVIC_PRIORITYGROUP_4
-NVIC.SysTick_IRQn=true\:0\:0\:true
-NVIC.TIM1_TRG_COM_TIM11_IRQn=true\:1\:0\:true
->>>>>>> origin/master
 NVIC.TIM1_UP_TIM10_IRQn=true\:3\:0\:true
 PA0-WKUP.GPIOParameters=GPIO_PuPd,GPIO_ModeDefaultEXTI
 PA0-WKUP.GPIO_ModeDefaultEXTI=GPIO_MODE_IT_RISING
@@ -235,7 +211,7 @@ PC7.Locked=true
 PC7.Signal=I2S3_MCK
 PCC.Family=STM32F4
 PCC.MCU=STM32F401V(B-C)Tx
-PCC.MXVersion=4.5.0
+PCC.MXVersion=4.6.0
 PCC.PartNumber=STM32F401VCTx
 PCC.Seq0=0
 PCC.SubFamily=STM32F401
@@ -323,7 +299,7 @@ PH1\ -\ OSC_OUT.GPIO_Label=PH1-OSC_OUT
 PH1\ -\ OSC_OUT.Locked=true
 PH1\ -\ OSC_OUT.Mode=HSE-External-Oscillator
 PH1\ -\ OSC_OUT.Signal=RCC_OSC_OUT
-ProjectManager.AskForMigrate=true
+ProjectManager.AskForMigrate=false
 ProjectManager.BackupPrevious=false
 ProjectManager.CompilerOptimize=2
 ProjectManager.ComputerToolchain=false
@@ -340,6 +316,7 @@ ProjectManager.ProjectBuild=false
 ProjectManager.ProjectFileName=Matrix_6_401.ioc
 ProjectManager.ProjectName=Matrix_6_401
 ProjectManager.TargetToolchain=EWARM 6.70
+ProjectManager.ToolChainLocation=
 RCC.48MHZClocksFreq_Value=48000000
 RCC.AHBFreq_Value=84000000
 RCC.APB1CLKDivider=RCC_HCLK_DIV2
@@ -353,11 +330,7 @@ RCC.HCLKFreq_Value=84000000
 RCC.HSE_VALUE=8000000
 RCC.HSI_VALUE=16000000
 RCC.I2SClocksFreq_Value=96000000
-<<<<<<< HEAD
-RCC.IPParameters=LSI_VALUE,APB1TimFreq_Value,APB2Freq_Value,MCO2PinFreq_Value,APB1CLKDivider,FCLKCortexFreq_Value,AHBFreq_Value,48MHZClocksFreq_Value,VCOInputFreq_Value,PLLSourceVirtual,I2SClocksFreq_Value,SYSCLKFreq_VALUE,PLLQ,SYSCLKSource,PLLP,LSE_VALUE,HSE_VALUE,HSI_VALUE,VCOI2SOutputFreq_Value,PLLCLKFreq_Value,RTCFreq_Value,HCLKFreq_Value,PLLM,PLLN,VCOOutputFreq_Value,VcooutputI2S,CortexFreq_Value,APB1Freq_Value,RTCHSEDivFreq_Value,APB2TimFreq_Value
-=======
 RCC.IPParameters=LSI_VALUE,APB1TimFreq_Value,APB2Freq_Value,MCO2PinFreq_Value,APB1CLKDivider,FCLKCortexFreq_Value,48MHZClocksFreq_Value,AHBFreq_Value,VCOInputFreq_Value,I2SClocksFreq_Value,PLLSourceVirtual,SYSCLKFreq_VALUE,PLLQ,SYSCLKSource,PLLP,LSE_VALUE,HSE_VALUE,HSI_VALUE,VCOI2SOutputFreq_Value,PLLCLKFreq_Value,RTCFreq_Value,HCLKFreq_Value,PLLM,PLLN,VCOOutputFreq_Value,VcooutputI2S,CortexFreq_Value,APB1Freq_Value,RTCHSEDivFreq_Value,APB2TimFreq_Value
->>>>>>> origin/master
 RCC.LSE_VALUE=32768
 RCC.LSI_VALUE=32000
 RCC.MCO2PinFreq_Value=84000000
@@ -386,7 +359,7 @@ SH.GPXTI5.ConfNb=1
 SPI1.BaudRatePrescaler-TX_Only_Simplex_Unidirect_Master=SPI_BAUDRATEPRESCALER_4
 SPI1.CalculateBaudRate-TX_Only_Simplex_Unidirect_Master=21.0 MBits/s
 SPI1.FirstBit-TX_Only_Simplex_Unidirect_Master=SPI_FIRSTBIT_LSB
-SPI1.IPParameters=BaudRatePrescaler-TX_Only_Simplex_Unidirect_Master,CalculateBaudRate-TX_Only_Simplex_Unidirect_Master,FirstBit-TX_Only_Simplex_Unidirect_Master,Mode-TX_Only_Simplex_Unidirect_Master
+SPI1.IPParameters=Mode-TX_Only_Simplex_Unidirect_Master,BaudRatePrescaler-TX_Only_Simplex_Unidirect_Master,CalculateBaudRate-TX_Only_Simplex_Unidirect_Master,FirstBit-TX_Only_Simplex_Unidirect_Master
 SPI1.Mode-TX_Only_Simplex_Unidirect_Master=SPI_MODE_MASTER
 TIM10.ClockDivision=TIM_CLOCKDIVISION_DIV1
 TIM10.IPParameters=ClockDivision,Prescaler,Period
@@ -395,19 +368,13 @@ TIM10.Prescaler=4
 TIM11.IPParameters=Prescaler,Period
 TIM11.Period=60000
 TIM11.Prescaler=100
-<<<<<<< HEAD
 TIM9.IPParameters=Prescaler,Period
 TIM9.Period=20000
 TIM9.Prescaler=8400
-=======
->>>>>>> origin/master
 VP_TIM10_VS_ClockSourceINT.Mode=Enable_Timer
 VP_TIM10_VS_ClockSourceINT.Signal=TIM10_VS_ClockSourceINT
 VP_TIM11_VS_ClockSourceINT.Mode=Enable_Timer
 VP_TIM11_VS_ClockSourceINT.Signal=TIM11_VS_ClockSourceINT
-<<<<<<< HEAD
 VP_TIM9_VS_ClockSourceINT.Mode=Internal
 VP_TIM9_VS_ClockSourceINT.Signal=TIM9_VS_ClockSourceINT
-=======
->>>>>>> origin/master
 boardIOC=true

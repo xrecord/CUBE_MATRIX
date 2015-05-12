@@ -9,11 +9,7 @@ TriggerName=main
 LimitSize=0
 ByteLimit=50
 [DebugChecksum]
-<<<<<<< HEAD
-Checksum=-1929800540
-=======
-Checksum=-2027621829
->>>>>>> origin/master
+Checksum=224676255
 [Exceptions]
 StopOnUncaught=_ 0
 StopOnThrow=_ 0
@@ -80,12 +76,7 @@ Exclusions=
 [Disassemble mode]
 mode=0
 [Breakpoints2]
-<<<<<<< HEAD
 Count=0
-=======
-Bp0=_ 0 "EMUL_DATA" "countLine" 0 0 0 0 4294967295
-Count=1
->>>>>>> origin/master
 [Aliases]
 Count=0
 SuppressDialog=0

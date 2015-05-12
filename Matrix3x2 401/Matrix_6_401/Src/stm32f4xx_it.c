@@ -1,11 +1,7 @@
 /**
   ******************************************************************************
   * @file    stm32f4xx_it.c
-<<<<<<< HEAD
   * @date    30/01/2015 15:15:45
-=======
-  * @date    28/01/2015 20:31:30
->>>>>>> origin/master
   * @brief   Interrupt Service Routines.
   ******************************************************************************
   *
@@ -44,10 +40,7 @@
 /* USER CODE END 0 */
 /* External variables --------------------------------------------------------*/
 
-<<<<<<< HEAD
 extern TIM_HandleTypeDef htim9;
-=======
->>>>>>> origin/master
 extern TIM_HandleTypeDef htim10;
 extern TIM_HandleTypeDef htim11;
 
@@ -112,7 +105,6 @@ void TIM1_UP_TIM10_IRQHandler(void)
   /* USER CODE END TIM1_UP_TIM10_IRQn 1 */
 }
 
-<<<<<<< HEAD
 /**
 * @brief This function handles TIM1 Break interrupt and TIM9 global interrupt.
 */
@@ -127,8 +119,6 @@ void TIM1_BRK_TIM9_IRQHandler(void)
   /* USER CODE END TIM1_BRK_TIM9_IRQn 1 */
 }
 
-=======
->>>>>>> origin/master
 /* USER CODE BEGIN 1 */
 
 /* USER CODE END 1 */

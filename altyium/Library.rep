@@ -1,0 +1,29 @@
+CSV text has been written to file : Library.csv
+
+Library Component Count : 22
+
+Name                Description
+----------------------------------------------------------------------------------------------------
+
+3528RGB_PLCC-2      
+74HC595             NXP
+AD8656              Ultrafast, Single-Supply Comparator, 3 to 5 V, 5.5 ns Delay, Industrial, 8-pin SOIC (R-8), Reel
+Cap                 Capacitor
+Cap+                Capacitor
+Header 16           Header, 16-Pin
+Header 5            Header, 5-Pin
+Header 5_1          Header, 5-Pin
+IRLML6402           HEXFET Power MOSFET
+LP2985-33DBVR       Single Output Low Noise LDO, 150 mA, Fixed 3.3 V Output, 2.2 to 16 V Input, with Low IQ, 5-pin SOT-23 (DBV), -40 to 125 degC, Green (RoHS & no Sb/Br)
+MC33269             
+MCP73831T           Linear Li-ion battery charger
+MP23AB02B           MP23AB02B
+Micro_usb_B         Micro_usb_B
+Mini usb_B          Mini usb_B
+Res2                Resistor
+STC4054             Linear Li-ion battery charger
+STM8S003K3          STM8 MCU
+SW-PB               Switch
+SW-PB_1             Switch
+USBLC6-2SC6         USBLC6-2SC6
+XTAL                Crystal Oscillator
