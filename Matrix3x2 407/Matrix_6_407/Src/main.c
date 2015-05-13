@@ -41,12 +41,42 @@
 
 /* Private variables ---------------------------------------------------------*/
 SPI_HandleTypeDef hspi2;
-
 TIM_HandleTypeDef htim9;
 TIM_HandleTypeDef htim10;
 TIM_HandleTypeDef htim11;
 
 /* USER CODE BEGIN PV */
+typedef enum {          //Обьеденение состояний Автомата Состояния
+  FIRST_INIT,           //Стартовый флаг
+  NEXT_LINE,            //состояние змения линии, флаг для семены отобрадения лини
+  NEXT_DOT,             //Состояние изменения матрицы вывода (исп для динамического отрисовки буквы)
+  CHANGE_LETTER,        //Состояние для изменения буквы в промежуточном буфере матрицы
+  CHANGE_COLOUR         //Состояние изменения цвета
+} state_t;
+
+state_t state = FIRST_INIT; //Переменная состояния
+
+typedef enum {          //Обьеденение состояния светодиода
+  ON,                   //Включен
+  OFF                   //Выключен
+} dot_t;
+
+typedef enum {          //Обьеденение Цветa
+  GREEN,                //Зеленый
+  RED,                  //Красный
+  BLUE,                 //Синий
+  YELLOW,               //Желтый (зеленый + красный)
+  MAGENTA,              //Розовый (синий + красный)
+  CYAN,                 //Голубой (зеленый + синий)
+  WHITE                 //Белый (Синий + зеленый + красный)
+} colour_t;
+
+struct dot{             //Структура точка 
+  char x;               //Положение по горизонтале в матрице
+  char y;               //Положение по вертикале в матрице        
+  dot_t dot_state;      //Состояние светодиода
+  colour_t colour;      //Цвет светодиода
+ };
 
 uint64_t data_An = 1;
 char data_Gr[8]; 
