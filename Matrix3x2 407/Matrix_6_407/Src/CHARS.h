@@ -1,11 +1,11 @@
-/*Инициализация констант цветов*/
-#define GREEN 0
-#define RED 1
-#define BLUE 2
-#define YELLOW 3
-#define MAGENTA 4
-#define CYAN 5
-#define WHITE 6
+///*Инициализация констант цветов*/
+//#define GREEN 0
+//#define RED 1
+//#define BLUE 2
+//#define YELLOW 3
+//#define MAGENTA 4
+//#define CYAN 5
+//#define WHITE 6
 
 /*Инициализация масивов отрисовующихся букв*/
 char aData_Play [2][21] = {
